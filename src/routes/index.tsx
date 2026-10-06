@@ -100,7 +100,7 @@ function Chat({ user }: { user: User }) {
     setMeta((m) => ({ ...m, [n]: r }));
     sendMessage({ text });
   };
-  const name = (user.user_metadata?.full_name as string | undefined)?.split(" ")[0] ?? "there";
+  const name = (user.user_metadata?.['full_name'] as string | undefined)?.split(" ")[0] ?? "there";
 
   return (
     <div className="mx-auto flex min-h-screen max-w-3xl flex-col px-4">

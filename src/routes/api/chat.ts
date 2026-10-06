@@ -17,7 +17,7 @@ export const Route = createFileRoute("/api/chat")({
       POST: async ({ request }) => {
         const token = request.headers.get("authorization")?.replace("Bearer ", "");
         if (!token) return new Response("Unauthorized", { status: 401 });
-        const sb = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_PUBLISHABLE_KEY!, {
+        const sb = createClient(process.env['SUPABASE_URL']!, process.env['SUPABASE_PUBLISHABLE_KEY']!, {
           auth: { persistSession: false },
         });
         const { data: user } = await sb.auth.getUser(token);
@@ -34,7 +34,7 @@ export const Route = createFileRoute("/api/chat")({
 
         return createResponsesCall(
           request,
-          { baseURL: "https://ai.gateway.lovable.dev", apiKey: process.env.LOVABLE_API_KEY!, model: "openai/gpt-6-astra" },
+          { baseURL: "https://ai.gateway.lovable.dev", apiKey: process.env['LOVABLE_API_KEY']!, model: "openai/gpt-6-astra" },
           await convertToModelMessages(recent),
           `${SYSTEM}\n\nAPPROVED CONTEXT:\n${context}`,
         ).response();
