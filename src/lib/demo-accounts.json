@@ -1,0 +1,17 @@
+[
+  {
+    "role": "employee",
+    "email": "employee.demo@nexahr.example",
+    "password": "NexaDemo-jKhi5ATtpm0PdfIi!"
+  },
+  {
+    "role": "intern",
+    "email": "intern.demo@nexahr.example",
+    "password": "NexaDemo-9j4qIpYD7lE7xw2W!"
+  },
+  {
+    "role": "ceo",
+    "email": "ceo.demo@nexahr.example",
+    "password": "NexaDemo-YsjMS1_NoXy1-iaf!"
+  }
+]
