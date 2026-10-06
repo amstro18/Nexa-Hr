@@ -716,34 +716,12 @@
    "contact": "CONTACT-HR-OPERATIONS"
   },
   {
-   "id": "POL-AL-3.10",
-   "name": "Annual Leave",
-   "section": "AL-3.10",
-   "title": "Carry Forward",
-   "text": "Up to 5 unused annual leave days may be carried into the next calendar year and must be used by 31 March, after which they lapse.",
-   "rule": "Up to 5 unused annual leave days may be carried into the next calendar year and must be used by 31 March, after which they lapse.",
-   "cat": "Annual Leave",
-   "form": "Annual Leave Request Form",
-   "contact": "CONTACT-HR-OPERATIONS"
-  },
-  {
    "id": "POL-AL-3.11",
    "name": "Annual Leave",
    "section": "AL-3.11",
    "title": "Advance Notice",
    "text": "Requests of 1-2 days need 3 working days' notice; 3 or more days need 2 weeks' notice.",
    "rule": "Requests of 1-2 days need 3 working days' notice; 3 or more days need 2 weeks' notice.",
-   "cat": "Annual Leave",
-   "form": "Annual Leave Request Form",
-   "contact": "CONTACT-HR-OPERATIONS"
-  },
-  {
-   "id": "POL-AL-3.12",
-   "name": "Annual Leave",
-   "section": "AL-3.12",
-   "title": "Encashment",
-   "text": "Unused annual leave is paid out only on leaving the company, for the current year's accrued but untaken days.",
-   "rule": "Unused annual leave is paid out only on leaving the company, for the current year's accrued but untaken days.",
    "cat": "Annual Leave",
    "form": "Annual Leave Request Form",
    "contact": "CONTACT-HR-OPERATIONS"
@@ -771,17 +749,6 @@
    "contact": "CONTACT-HR-OPERATIONS"
   },
   {
-   "id": "POL-AL-3.15",
-   "name": "Annual Leave",
-   "section": "AL-3.15",
-   "title": "Half Days",
-   "text": "Annual leave may be taken in half-day units.",
-   "rule": "Annual leave may be taken in half-day units.",
-   "cat": "Annual Leave",
-   "form": "Annual Leave Request Form",
-   "contact": "CONTACT-HR-OPERATIONS"
-  },
-  {
    "id": "POL-SL-4.7",
    "name": "Sick Leave",
    "section": "SL-4.7",
@@ -804,17 +771,6 @@
    "contact": "CONTACT-HR-OPERATIONS"
   },
   {
-   "id": "POL-SL-4.9",
-   "name": "Sick Leave",
-   "section": "SL-4.9",
-   "title": "Medical Certificate",
-   "text": "A medical certificate is required for absences of more than 2 consecutive working days.",
-   "rule": "A medical certificate is required for absences of more than 2 consecutive working days.",
-   "cat": "Sick Leave",
-   "form": "Sick Leave Form",
-   "contact": "CONTACT-HR-OPERATIONS"
-  },
-  {
    "id": "POL-SL-4.10",
    "name": "Sick Leave",
    "section": "SL-4.10",
@@ -832,17 +788,6 @@
    "title": "Family Sickness",
    "text": "Up to 3 of the paid sick days per year may be used to care for a sick dependent child or family member.",
    "rule": "Up to 3 of the paid sick days per year may be used to care for a sick dependent child or family member.",
-   "cat": "Sick Leave",
-   "form": "Sick Leave Form",
-   "contact": "CONTACT-HR-OPERATIONS"
-  },
-  {
-   "id": "POL-SL-4.12",
-   "name": "Sick Leave",
-   "section": "SL-4.12",
-   "title": "Carry Forward",
-   "text": "Unused sick days do not carry forward and are not paid out.",
-   "rule": "Unused sick days do not carry forward and are not paid out.",
    "cat": "Sick Leave",
    "form": "Sick Leave Form",
    "contact": "CONTACT-HR-OPERATIONS"
