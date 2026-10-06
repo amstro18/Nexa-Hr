@@ -25,8 +25,8 @@ export const Route = createFileRoute('/')({
   ] }),
   component: Index,
 });
-const ROLE_LABELS: Record<AccessRole, string> = { employee: 'Employee', intern: 'Intern', ceo: 'CEO' };
-const ROLES: AccessRole[] = ['employee', 'intern', 'ceo'];
+const ROLE_LABELS: Record<AccessRole, string> = { employee: 'Employee', intern: 'Intern', hr: 'HR', ceo: 'CEO' };
+const ROLES: AccessRole[] = ['employee', 'intern', 'hr', 'ceo'];
 const fieldClass = 'w-full rounded-md border bg-card px-4 py-3 text-sm outline-none transition-colors placeholder:text-muted-foreground focus:border-foreground focus:ring-1 focus:ring-ring';
 
 function Index() {
@@ -94,7 +94,7 @@ function Login() {
         <Button variant="outline" disabled={pending} onClick={googleSignIn} className="h-12 w-full shadow-none"><GoogleMark />Continue with Google</Button>
         <div className="my-7 flex items-center gap-4"><span className="flex-1 border-t" /><span className="text-xs text-muted-foreground">or use email</span><span className="flex-1 border-t" /></div>
         <form className="space-y-5" onSubmit={signIn}>
-          <fieldset disabled={pending}><legend className="mb-2.5 text-xs font-semibold text-muted-foreground">Access role</legend><div className="grid grid-cols-3 gap-1 rounded-md bg-muted p-1">{ROLES.map(r => <Button key={r} type="button" variant={role === r ? 'outline' : 'ghost'} onClick={() => { setRole(r); setError(''); }} aria-pressed={role === r} className="h-9 px-2 shadow-none">{ROLE_LABELS[r]}</Button>)}</div></fieldset>
+          <fieldset disabled={pending}><legend className="mb-2.5 text-xs font-semibold text-muted-foreground">Access role</legend><div className="grid grid-cols-4 gap-1 rounded-md bg-muted p-1">{ROLES.map(r => <Button key={r} type="button" variant={role === r ? 'outline' : 'ghost'} onClick={() => { setRole(r); setError(''); }} aria-pressed={role === r} className="h-9 px-2 shadow-none">{ROLE_LABELS[r]}</Button>)}</div></fieldset>
           <div><label htmlFor="email" className="mb-2 block text-xs font-semibold text-muted-foreground">Work email</label><input id="email" type="email" required autoComplete="username" value={email} onChange={e => setEmail(e.target.value)} placeholder="name@company.com" className={fieldClass} disabled={pending} /></div>
           <div><label htmlFor="password" className="mb-2 block text-xs font-semibold text-muted-foreground">Password</label><div className="relative"><input id="password" type={showPassword ? 'text' : 'password'} required autoComplete="current-password" value={password} onChange={e => setPassword(e.target.value)} placeholder="Enter your password" className={`${fieldClass} pr-12`} disabled={pending} /><Button variant="ghost" size="icon" type="button" onClick={() => setShowPassword(!showPassword)} aria-label={showPassword ? 'Hide password' : 'Show password'} title={showPassword ? 'Hide password' : 'Show password'} className="absolute right-1 top-1 text-muted-foreground">{showPassword ? <EyeOff /> : <Eye />}</Button></div></div>
           {error && <p role="alert" className="text-sm text-destructive">{error}</p>}

@@ -13,5 +13,10 @@
     "role": "ceo",
     "email": "ceo.demo@nexahr.example",
     "password": "NexaDemo-YsjMS1_NoXy1-iaf!"
+  },
+  {
+    "role": "hr",
+    "email": "hr.demo@nexahr.example",
+    "password": "NexaDemo-t6IK4r2IlJnMsHV!"
   }
 ]
