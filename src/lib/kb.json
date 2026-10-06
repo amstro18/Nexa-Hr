@@ -1,1 +1,1414 @@
-{"policies": [{"id": "POL-AL-3.1", "name": "Annual Leave", "section": "AL-3.1", "title": "Entitlement", "text": "Employees are entitled to 18 paid annual leave days per calendar year.", "rule": "18 paid days per calendar year.", "cat": "Annual Leave", "form": "Annual Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-AL-3.2", "name": "Annual Leave", "section": "AL-3.2", "title": "Application", "text": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.", "rule": "Submit through the HR portal.", "cat": "Annual Leave", "form": "Annual Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-AL-3.3", "name": "Annual Leave", "section": "AL-3.3", "title": "Notice", "text": "Employees should normally submit annual leave requests at least 3 working days before the intended leave date.", "rule": "3 working days' advance notice.", "cat": "Annual Leave", "form": "Annual Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-AL-3.4", "name": "Annual Leave", "section": "AL-3.4", "title": "Half-day Leave", "text": "Annual leave may be taken in half-day increments.", "rule": "Minimum increment: 0.5 day.", "cat": "Annual Leave", "form": "Annual Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-AL-3.5", "name": "Annual Leave", "section": "AL-3.5", "title": "Carry Forward", "text": "Up to 5 unused annual leave days may be carried forward to the following calendar year. Carry-forward days expire after the following calendar year.", "rule": "Maximum carry-forward: 5 days.", "cat": "Annual Leave", "form": "", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-AL-3.6", "name": "Annual Leave", "section": "AL-3.6", "title": "Encashment", "text": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.", "rule": "Eligibility is determined during separation processing.", "cat": "Annual Leave", "form": "Separation/Leave Encashment Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-AL-3.7", "name": "Annual Leave", "section": "AL-3.7", "title": "Approval", "text": "A manager may decline or request a different leave date when there is a genuine operational requirement.", "rule": "Manager approval is required.", "cat": "Annual Leave", "form": "Annual Leave Request Form", "contact": "CONTACT-REPORTING-MANAGER"}, {"id": "POL-AL-3.8", "name": "Annual Leave", "section": "AL-3.8", "title": "Separation", "text": "Eligible unused annual leave is handled during separation according to the leave encashment policy.", "rule": "Final treatment is determined during separation processing.", "cat": "Annual Leave", "form": "Separation/Leave Encashment Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-SL-4.1", "name": "Sick Leave", "section": "SL-4.1", "title": "Entitlement", "text": "Employees receive 10 paid sick leave days per calendar year.", "rule": "10 paid days per calendar year.", "cat": "Sick Leave", "form": "Sick Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-SL-4.2", "name": "Sick Leave", "section": "SL-4.2", "title": "Application", "text": "Sick leave should be recorded through the HR portal as soon as reasonably possible.", "rule": "Notify the company and record the absence in the HR portal.", "cat": "Sick Leave", "form": "Sick Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-SL-4.3", "name": "Sick Leave", "section": "SL-4.3", "title": "Medical Certificate", "text": "A medical certificate is required when sick leave exceeds 2 consecutive working days.", "rule": "Medical certificate required after 2 consecutive working days.", "cat": "Sick Leave", "form": "Sick Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-SL-4.4", "name": "Sick Leave", "section": "SL-4.4", "title": "Unexpected Illness", "text": "If an employee becomes suddenly ill and cannot apply beforehand, they should notify their manager as soon as reasonably possible and record the sick leave when able.", "rule": "Prompt notification is required where practical.", "cat": "Sick Leave", "form": "Sick Leave Request Form", "contact": "CONTACT-REPORTING-MANAGER"}, {"id": "POL-SL-4.5", "name": "Sick Leave", "section": "SL-4.5", "title": "Half-day Leave", "text": "Sick leave may be taken in half-day increments.", "rule": "Minimum increment: 0.5 day.", "cat": "Sick Leave", "form": "Sick Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-SL-4.6", "name": "Sick Leave", "section": "SL-4.6", "title": "Carry Forward", "text": "Unused sick leave does not carry forward to the next calendar year.", "rule": "No carry-forward.", "cat": "Sick Leave", "form": "", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-UL-5.1", "name": "Unpaid Leave", "section": "UL-5.1", "title": "Eligibility", "text": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.", "rule": "Paid leave should generally be exhausted first, unless HR approves otherwise.", "cat": "Unpaid Leave", "form": "Unpaid Leave Request Form", "contact": "CONTACT-REPORTING-MANAGER"}, {"id": "POL-UL-5.2", "name": "Unpaid Leave", "section": "UL-5.2", "title": "Application", "text": "Employees must submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.", "rule": "Manager and HR approval required.", "cat": "Unpaid Leave", "form": "Unpaid Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-UL-5.3", "name": "Unpaid Leave", "section": "UL-5.3", "title": "Approval", "text": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.", "rule": "Approval is case-by-case.", "cat": "Unpaid Leave", "form": "Unpaid Leave Request Form", "contact": "CONTACT-REPORTING-MANAGER"}, {"id": "POL-UL-5.4", "name": "Unpaid Leave", "section": "UL-5.4", "title": "Salary Impact", "text": "Salary is reduced in proportion to approved unpaid leave days.", "rule": "Unpaid days are unpaid and reduce salary accordingly.", "cat": "Unpaid Leave", "form": "Unpaid Leave Request Form", "contact": "CONTACT-PAYROLL-HR"}, {"id": "POL-PL-6.1", "name": "Parental Leave", "section": "PL-6.1", "title": "Entitlement", "text": "Eligible employees may receive 16 weeks of paid parental leave.", "rule": "16 weeks paid parental leave.", "cat": "Parental Leave", "form": "Parental Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-PL-6.2", "name": "Parental Leave", "section": "PL-6.2", "title": "Eligibility", "text": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.", "rule": "Minimum service: 6 continuous months.", "cat": "Parental Leave", "form": "Parental Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-PL-6.3", "name": "Parental Leave", "section": "PL-6.3", "title": "Notice", "text": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.", "rule": "30 days' advance notice where reasonably possible.", "cat": "Parental Leave", "form": "Parental Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-PL-6.4", "name": "Parental Leave", "section": "PL-6.4", "title": "Documentation", "text": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.", "rule": "Supporting documentation may be required.", "cat": "Parental Leave", "form": "Parental Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-PL-6.5", "name": "Parental Leave", "section": "PL-6.5", "title": "Splitting Leave", "text": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.", "rule": "Maximum: two blocks.", "cat": "Parental Leave", "form": "Parental Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-PL-6.6", "name": "Parental Leave", "section": "PL-6.6", "title": "Paid Status", "text": "Eligible parental leave is paid for up to 16 weeks under company policy.", "rule": "Paid for up to 16 weeks.", "cat": "Parental Leave", "form": "Parental Leave Request Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-GL-7.1", "name": "General Leave", "section": "GL-7.1", "title": "Combining Leave", "text": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.", "rule": "Each leave type must independently satisfy its requirements.", "cat": "General Leave", "form": "Relevant Leave Form(s)", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-GL-7.2", "name": "General Leave", "section": "GL-7.2", "title": "Unauthorized Absence", "text": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.", "rule": "Approval should be obtained before leave except in genuine emergencies.", "cat": "General Leave", "form": "Leave Regularization Form", "contact": "CONTACT-REPORTING-MANAGER"}, {"id": "POL-GL-7.3", "name": "General Leave", "section": "GL-7.3", "title": "Leave Balance", "text": "Employees can view their current leave balance in the HR portal.", "rule": "Check the HR portal for the current balance.", "cat": "General Leave", "form": "HR Portal", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-GL-7.4", "name": "General Leave", "section": "GL-7.4", "title": "Support", "text": "Employees should contact their reporting manager for approval questions and HR Operations for policy or system questions.", "rule": "Manager: approval. HR: policy/system support.", "cat": "General Leave", "form": "HR Helpdesk", "contact": "CONTACT-REPORTING-MANAGER"}, {"id": "POL-GL-7.5", "name": "General Leave", "section": "GL-7.5", "title": "Urgent Leave", "text": "For urgent leave, employees should notify their reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.", "rule": "Prompt manager notification is expected.", "cat": "General Leave", "form": "Relevant Leave Form", "contact": "CONTACT-REPORTING-MANAGER"}, {"id": "POL-BL-8.1", "name": "Bereavement Leave", "section": "BL-8.1", "title": "Entitlement", "text": "Employees may receive up to 5 paid working days of bereavement leave following the death of an immediate family member.", "rule": "Up to 5 paid working days.", "cat": "Bereavement Leave", "form": "Bereavement Leave Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-BL-8.2", "name": "Bereavement Leave", "section": "BL-8.2", "title": "Eligibility", "text": "Bereavement leave applies to the death of an immediate family member, including a spouse, parent, child, sibling, or legal guardian.", "rule": "Immediate-family relationship must apply.", "cat": "Bereavement Leave", "form": "Bereavement Leave Form", "contact": "CONTACT-HR-OPERATIONS"}, {"id": "POL-BL-8.3", "name": "Bereavement Leave", "section": "BL-8.3", "title": "Application", "text": "Employees should notify their manager as soon as reasonably possible and submit the Bereavement Leave Form when practical.", "rule": "Prompt notification; documentation may be requested.", "cat": "Bereavement Leave", "form": "Bereavement Leave Form", "contact": "CONTACT-REPORTING-MANAGER"}], "faqs": [{"q": "Do employees get 18 paid leave days?", "a": "Employees are entitled to 18 paid annual leave days per calendar year.", "chunk": "POL-AL-3.1", "cite": "Annual Leave Policy \u00a73.1"}, {"q": "How many days of paid leave are available to me?", "a": "Employees are entitled to 18 paid annual leave days per calendar year.", "chunk": "POL-AL-3.1", "cite": "Annual Leave Policy \u00a73.1"}, {"q": "How many paid annual leave days do I get?", "a": "Employees are entitled to 18 paid annual leave days per calendar year.", "chunk": "POL-AL-3.1", "cite": "Annual Leave Policy \u00a73.1"}, {"q": "How many paid leave days can I use in a year?", "a": "Employees are entitled to 18 paid annual leave days per calendar year.", "chunk": "POL-AL-3.1", "cite": "Annual Leave Policy \u00a73.1"}, {"q": "How much paid time off do employees receive?", "a": "Employees are entitled to 18 paid annual leave days per calendar year.", "chunk": "POL-AL-3.1", "cite": "Annual Leave Policy \u00a73.1"}, {"q": "Can I request annual leave through the HR portal?", "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.", "chunk": "POL-AL-3.2", "cite": "Annual Leave Policy \u00a73.2"}, {"q": "How can I put in a leave request?", "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.", "chunk": "POL-AL-3.2", "cite": "Annual Leave Policy \u00a73.2"}, {"q": "How do I apply for annual leave?", "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.", "chunk": "POL-AL-3.2", "cite": "Annual Leave Policy \u00a73.2"}, {"q": "How do I book my paid leave?", "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.", "chunk": "POL-AL-3.2", "cite": "Annual Leave Policy \u00a73.2"}, {"q": "How do I submit paid time off?", "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.", "chunk": "POL-AL-3.2", "cite": "Annual Leave Policy \u00a73.2"}, {"q": "Can I request annual leave at short notice?", "a": "Employees should normally submit annual leave requests at least 3 working days in advance.", "chunk": "POL-AL-3.3", "cite": "Annual Leave Policy \u00a73.3"}, {"q": "Do I need to give 3 working days' notice?", "a": "Employees should normally submit annual leave requests at least 3 working days in advance.", "chunk": "POL-AL-3.3", "cite": "Annual Leave Policy \u00a73.3"}, {"q": "How early should my annual leave request be?", "a": "Employees should normally submit annual leave requests at least 3 working days in advance.", "chunk": "POL-AL-3.3", "cite": "Annual Leave Policy \u00a73.3"}, {"q": "How far in advance should I request annual leave?", "a": "Employees should normally submit annual leave requests at least 3 working days in advance.", "chunk": "POL-AL-3.3", "cite": "Annual Leave Policy \u00a73.3"}, {"q": "How many days before leave should I apply?", "a": "Employees should normally submit annual leave requests at least 3 working days in advance.", "chunk": "POL-AL-3.3", "cite": "Annual Leave Policy \u00a73.3"}, {"q": "Are half-day leave requests allowed?", "a": "Annual leave may be taken in half-day increments.", "chunk": "POL-AL-3.4", "cite": "Annual Leave Policy \u00a73.4"}, {"q": "Can I request a half day off?", "a": "Annual leave may be taken in half-day increments.", "chunk": "POL-AL-3.4", "cite": "Annual Leave Policy \u00a73.4"}, {"q": "Can I take 0.5 days of annual leave?", "a": "Annual leave may be taken in half-day increments.", "chunk": "POL-AL-3.4", "cite": "Annual Leave Policy \u00a73.4"}, {"q": "Can I take half-day annual leave?", "a": "Annual leave may be taken in half-day increments.", "chunk": "POL-AL-3.4", "cite": "Annual Leave Policy \u00a73.4"}, {"q": "Can I use annual leave in half-day increments?", "a": "Annual leave may be taken in half-day increments.", "chunk": "POL-AL-3.4", "cite": "Annual Leave Policy \u00a73.4"}, {"q": "Can I roll over my leave balance?", "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.", "chunk": "POL-AL-3.5", "cite": "Annual Leave Policy \u00a73.5"}, {"q": "Can I save unused vacation for next year?", "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.", "chunk": "POL-AL-3.5", "cite": "Annual Leave Policy \u00a73.5"}, {"q": "Can unused annual leave be carried forward?", "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.", "chunk": "POL-AL-3.5", "cite": "Annual Leave Policy \u00a73.5"}, {"q": "Do my unused paid leave days expire?", "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.", "chunk": "POL-AL-3.5", "cite": "Annual Leave Policy \u00a73.5"}, {"q": "How many annual leave days can I carry over?", "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.", "chunk": "POL-AL-3.5", "cite": "Annual Leave Policy \u00a73.5"}, {"q": "Can I cash out my remaining leave?", "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.", "chunk": "POL-AL-3.6", "cite": "Annual Leave Policy \u00a73.6"}, {"q": "Can I encash unused annual leave?", "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.", "chunk": "POL-AL-3.6", "cite": "Annual Leave Policy \u00a73.6"}, {"q": "Can unused vacation days be paid out?", "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.", "chunk": "POL-AL-3.6", "cite": "Annual Leave Policy \u00a73.6"}, {"q": "Do I get money for unused annual leave?", "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.", "chunk": "POL-AL-3.6", "cite": "Annual Leave Policy \u00a73.6"}, {"q": "Is leave encashment available when I leave the company?", "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.", "chunk": "POL-AL-3.6", "cite": "Annual Leave Policy \u00a73.6"}, {"q": "Can a manager decline my leave?", "a": "A manager may decline or request a different date when there is a genuine operational requirement.", "chunk": "POL-AL-3.7", "cite": "Annual Leave Policy \u00a73.7"}, {"q": "Can business requirements affect my leave approval?", "a": "A manager may decline or request a different date when there is a genuine operational requirement.", "chunk": "POL-AL-3.7", "cite": "Annual Leave Policy \u00a73.7"}, {"q": "Can my annual leave request be rejected?", "a": "A manager may decline or request a different date when there is a genuine operational requirement.", "chunk": "POL-AL-3.7", "cite": "Annual Leave Policy \u00a73.7"}, {"q": "Can my manager deny my vacation request?", "a": "A manager may decline or request a different date when there is a genuine operational requirement.", "chunk": "POL-AL-3.7", "cite": "Annual Leave Policy \u00a73.7"}, {"q": "Under what circumstances can my leave be rejected?", "a": "A manager may decline or request a different date when there is a genuine operational requirement.", "chunk": "POL-AL-3.7", "cite": "Annual Leave Policy \u00a73.7"}, {"q": "Do I lose my unused vacation when I leave the company?", "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.", "chunk": "POL-AL-3.8", "cite": "Annual Leave Policy \u00a73.8"}, {"q": "Is unused leave settled when employment ends?", "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.", "chunk": "POL-AL-3.8", "cite": "Annual Leave Policy \u00a73.8"}, {"q": "What happens to my leave balance when I resign?", "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.", "chunk": "POL-AL-3.8", "cite": "Annual Leave Policy \u00a73.8"}, {"q": "What happens to my unused annual leave when I leave?", "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.", "chunk": "POL-AL-3.8", "cite": "Annual Leave Policy \u00a73.8"}, {"q": "Will my remaining annual leave be paid when I leave?", "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.", "chunk": "POL-AL-3.8", "cite": "Annual Leave Policy \u00a73.8"}, {"q": "Do I get 10 paid sick days?", "a": "Employees receive 10 paid sick leave days per calendar year.", "chunk": "POL-SL-4.1", "cite": "Sick Leave Policy \u00a74.1"}, {"q": "How many paid sick leave days do I get?", "a": "Employees receive 10 paid sick leave days per calendar year.", "chunk": "POL-SL-4.1", "cite": "Sick Leave Policy \u00a74.1"}, {"q": "How many sick days can I take each year?", "a": "Employees receive 10 paid sick leave days per calendar year.", "chunk": "POL-SL-4.1", "cite": "Sick Leave Policy \u00a74.1"}, {"q": "How much sick leave am I entitled to?", "a": "Employees receive 10 paid sick leave days per calendar year.", "chunk": "POL-SL-4.1", "cite": "Sick Leave Policy \u00a74.1"}, {"q": "What is the company's sick leave entitlement?", "a": "Employees receive 10 paid sick leave days per calendar year.", "chunk": "POL-SL-4.1", "cite": "Sick Leave Policy \u00a74.1"}, {"q": "How do I apply for sick leave?", "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.", "chunk": "POL-SL-4.2", "cite": "Sick Leave Policy \u00a74.2"}, {"q": "How do I record a sick day?", "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.", "chunk": "POL-SL-4.2", "cite": "Sick Leave Policy \u00a74.2"}, {"q": "How do I submit a sick leave request?", "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.", "chunk": "POL-SL-4.2", "cite": "Sick Leave Policy \u00a74.2"}, {"q": "What's the process for taking sick leave?", "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.", "chunk": "POL-SL-4.2", "cite": "Sick Leave Policy \u00a74.2"}, {"q": "Where can I enter sick leave in the HR system?", "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.", "chunk": "POL-SL-4.2", "cite": "Sick Leave Policy \u00a74.2"}, {"q": "Do I need a medical certificate for sick leave?", "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.", "chunk": "POL-SL-4.3", "cite": "Sick Leave Policy \u00a74.3"}, {"q": "Do I need proof from a doctor if I'm sick?", "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.", "chunk": "POL-SL-4.3", "cite": "Sick Leave Policy \u00a74.3"}, {"q": "How many sick days can I take before a medical certificate is required?", "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.", "chunk": "POL-SL-4.3", "cite": "Sick Leave Policy \u00a74.3"}, {"q": "Is a medical certificate needed for more than two days?", "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.", "chunk": "POL-SL-4.3", "cite": "Sick Leave Policy \u00a74.3"}, {"q": "When is a doctor's note required?", "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.", "chunk": "POL-SL-4.3", "cite": "Sick Leave Policy \u00a74.3"}, {"q": "Can I notify my manager after becoming ill?", "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.", "chunk": "POL-SL-4.4", "cite": "Sick Leave Policy \u00a74.4"}, {"q": "How do I report an emergency sick day?", "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.", "chunk": "POL-SL-4.4", "cite": "Sick Leave Policy \u00a74.4"}, {"q": "What if I am too sick to submit leave in advance?", "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.", "chunk": "POL-SL-4.4", "cite": "Sick Leave Policy \u00a74.4"}, {"q": "What if I suddenly become sick and cannot apply beforehand?", "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.", "chunk": "POL-SL-4.4", "cite": "Sick Leave Policy \u00a74.4"}, {"q": "What should I do if I get sick unexpectedly?", "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.", "chunk": "POL-SL-4.4", "cite": "Sick Leave Policy \u00a74.4"}, {"q": "Are half-day sick days allowed?", "a": "Sick leave may be taken in half-day increments.", "chunk": "POL-SL-4.5", "cite": "Sick Leave Policy \u00a74.5"}, {"q": "Can I take half-day sick leave?", "a": "Sick leave may be taken in half-day increments.", "chunk": "POL-SL-4.5", "cite": "Sick Leave Policy \u00a74.5"}, {"q": "Can I use 0.5 sick days?", "a": "Sick leave may be taken in half-day increments.", "chunk": "POL-SL-4.5", "cite": "Sick Leave Policy \u00a74.5"}, {"q": "Can sick leave be taken for half a day?", "a": "Sick leave may be taken in half-day increments.", "chunk": "POL-SL-4.5", "cite": "Sick Leave Policy \u00a74.5"}, {"q": "I have already used some of my leave. can I take half-day sick leave?", "a": "Sick leave may be taken in half-day increments.", "chunk": "POL-SL-4.5", "cite": "Sick Leave Policy \u00a74.5"}, {"q": "Can I save sick leave for the following year?", "a": "Unused sick leave does not carry forward to the next calendar year.", "chunk": "POL-SL-4.6", "cite": "Sick Leave Policy \u00a74.6"}, {"q": "Can unused sick leave be carried forward?", "a": "Unused sick leave does not carry forward to the next calendar year.", "chunk": "POL-SL-4.6", "cite": "Sick Leave Policy \u00a74.6"}, {"q": "Do unused sick days expire?", "a": "Unused sick leave does not carry forward to the next calendar year.", "chunk": "POL-SL-4.6", "cite": "Sick Leave Policy \u00a74.6"}, {"q": "Does sick leave roll over to next year?", "a": "Unused sick leave does not carry forward to the next calendar year.", "chunk": "POL-SL-4.6", "cite": "Sick Leave Policy \u00a74.6"}, {"q": "I have already used some of my leave. can unused sick leave be carried forward?", "a": "Unused sick leave does not carry forward to the next calendar year.", "chunk": "POL-SL-4.6", "cite": "Sick Leave Policy \u00a74.6"}, {"q": "Am I allowed to take unpaid leave?", "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.", "chunk": "POL-UL-5.1", "cite": "Unpaid Leave Policy \u00a75.1"}, {"q": "Can I take time off without pay?", "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.", "chunk": "POL-UL-5.1", "cite": "Unpaid Leave Policy \u00a75.1"}, {"q": "Can I take unpaid leave?", "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.", "chunk": "POL-UL-5.1", "cite": "Unpaid Leave Policy \u00a75.1"}, {"q": "Is unpaid leave available if I have used all my paid leave?", "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.", "chunk": "POL-UL-5.1", "cite": "Unpaid Leave Policy \u00a75.1"}, {"q": "When can an employee request unpaid leave?", "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.", "chunk": "POL-UL-5.1", "cite": "Unpaid Leave Policy \u00a75.1"}, {"q": "How can I apply for leave without pay?", "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.", "chunk": "POL-UL-5.2", "cite": "Unpaid Leave Policy \u00a75.2"}, {"q": "How do I request unpaid leave?", "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.", "chunk": "POL-UL-5.2", "cite": "Unpaid Leave Policy \u00a75.2"}, {"q": "What's the process for unpaid leave?", "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.", "chunk": "POL-UL-5.2", "cite": "Unpaid Leave Policy \u00a75.2"}, {"q": "Where do I submit an unpaid leave request?", "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.", "chunk": "POL-UL-5.2", "cite": "Unpaid Leave Policy \u00a75.2"}, {"q": "Which form do I need for unpaid leave?", "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.", "chunk": "POL-UL-5.2", "cite": "Unpaid Leave Policy \u00a75.2"}, {"q": "Can unpaid leave be approved for personal reasons?", "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.", "chunk": "POL-UL-5.3", "cite": "Unpaid Leave Policy \u00a75.3"}, {"q": "What are the requirements for unpaid leave approval?", "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.", "chunk": "POL-UL-5.3", "cite": "Unpaid Leave Policy \u00a75.3"}, {"q": "What factors are considered for unpaid leave?", "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.", "chunk": "POL-UL-5.3", "cite": "Unpaid Leave Policy \u00a75.3"}, {"q": "When can unpaid leave be approved?", "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.", "chunk": "POL-UL-5.3", "cite": "Unpaid Leave Policy \u00a75.3"}, {"q": "Who approves unpaid leave?", "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.", "chunk": "POL-UL-5.3", "cite": "Unpaid Leave Policy \u00a75.3"}, {"q": "Does unpaid leave affect my salary?", "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.", "chunk": "POL-UL-5.4", "cite": "Unpaid Leave Policy \u00a75.4"}, {"q": "How does unpaid leave affect payroll?", "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.", "chunk": "POL-UL-5.4", "cite": "Unpaid Leave Policy \u00a75.4"}, {"q": "How much pay is lost during unpaid leave?", "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.", "chunk": "POL-UL-5.4", "cite": "Unpaid Leave Policy \u00a75.4"}, {"q": "Is salary deducted for unpaid leave?", "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.", "chunk": "POL-UL-5.4", "cite": "Unpaid Leave Policy \u00a75.4"}, {"q": "Will I lose pay if I take unpaid leave?", "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.", "chunk": "POL-UL-5.4", "cite": "Unpaid Leave Policy \u00a75.4"}, {"q": "Do eligible employees get 16 weeks of parental leave?", "a": "Eligible employees may receive 16 weeks of paid parental leave.", "chunk": "POL-PL-6.1", "cite": "Parental Leave Policy \u00a76.1"}, {"q": "How many weeks of parental leave do I get?", "a": "Eligible employees may receive 16 weeks of paid parental leave.", "chunk": "POL-PL-6.1", "cite": "Parental Leave Policy \u00a76.1"}, {"q": "How much paid parental leave does the company provide?", "a": "Eligible employees may receive 16 weeks of paid parental leave.", "chunk": "POL-PL-6.1", "cite": "Parental Leave Policy \u00a76.1"}, {"q": "How much parental leave is available?", "a": "Eligible employees may receive 16 weeks of paid parental leave.", "chunk": "POL-PL-6.1", "cite": "Parental Leave Policy \u00a76.1"}, {"q": "What is the parental leave allowance?", "a": "Eligible employees may receive 16 weeks of paid parental leave.", "chunk": "POL-PL-6.1", "cite": "Parental Leave Policy \u00a76.1"}, {"q": "Do I qualify for parental leave?", "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.", "chunk": "POL-PL-6.2", "cite": "Parental Leave Policy \u00a76.2"}, {"q": "How long must I work here before parental leave?", "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.", "chunk": "POL-PL-6.2", "cite": "Parental Leave Policy \u00a76.2"}, {"q": "Is there a minimum service requirement for parental leave?", "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.", "chunk": "POL-PL-6.2", "cite": "Parental Leave Policy \u00a76.2"}, {"q": "What are the eligibility requirements for parental leave?", "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.", "chunk": "POL-PL-6.2", "cite": "Parental Leave Policy \u00a76.2"}, {"q": "Who is eligible for parental leave?", "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.", "chunk": "POL-PL-6.2", "cite": "Parental Leave Policy \u00a76.2"}, {"q": "Do I need to give 30 days' notice for parental leave?", "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.", "chunk": "POL-PL-6.3", "cite": "Parental Leave Policy \u00a76.3"}, {"q": "How early should I request parental leave?", "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.", "chunk": "POL-PL-6.3", "cite": "Parental Leave Policy \u00a76.3"}, {"q": "How far in advance should parental leave be submitted?", "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.", "chunk": "POL-PL-6.3", "cite": "Parental Leave Policy \u00a76.3"}, {"q": "How much notice is required for parental leave?", "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.", "chunk": "POL-PL-6.3", "cite": "Parental Leave Policy \u00a76.3"}, {"q": "When should I tell HR about parental leave?", "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.", "chunk": "POL-PL-6.3", "cite": "Parental Leave Policy \u00a76.3"}, {"q": "Do I need supporting documents for parental leave?", "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.", "chunk": "POL-PL-6.4", "cite": "Parental Leave Policy \u00a76.4"}, {"q": "What documents are required for parental leave?", "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.", "chunk": "POL-PL-6.4", "cite": "Parental Leave Policy \u00a76.4"}, {"q": "What proof does HR need for parental leave?", "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.", "chunk": "POL-PL-6.4", "cite": "Parental Leave Policy \u00a76.4"}, {"q": "Which documents should I submit for adoption or birth leave?", "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.", "chunk": "POL-PL-6.4", "cite": "Parental Leave Policy \u00a76.4"}, {"q": "I have already used some of my leave. what documents are required for parental leave?", "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.", "chunk": "POL-PL-6.4", "cite": "Parental Leave Policy \u00a76.4"}, {"q": "Can I divide parental leave into two blocks?", "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.", "chunk": "POL-PL-6.5", "cite": "Parental Leave Policy \u00a76.5"}, {"q": "Can I take parental leave in separate periods?", "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.", "chunk": "POL-PL-6.5", "cite": "Parental Leave Policy \u00a76.5"}, {"q": "Can parental leave be split into multiple periods?", "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.", "chunk": "POL-PL-6.5", "cite": "Parental Leave Policy \u00a76.5"}, {"q": "Is parental leave required to be continuous?", "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.", "chunk": "POL-PL-6.5", "cite": "Parental Leave Policy \u00a76.5"}, {"q": "I have already used some of my leave. can parental leave be split into multiple periods?", "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.", "chunk": "POL-PL-6.5", "cite": "Parental Leave Policy \u00a76.5"}, {"q": "Do I get paid during parental leave?", "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.", "chunk": "POL-PL-6.6", "cite": "Parental Leave Policy \u00a76.6"}, {"q": "Is parental leave paid?", "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.", "chunk": "POL-PL-6.6", "cite": "Parental Leave Policy \u00a76.6"}, {"q": "Is the 16-week parental leave fully paid?", "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.", "chunk": "POL-PL-6.6", "cite": "Parental Leave Policy \u00a76.6"}, {"q": "Will I receive salary while on parental leave?", "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.", "chunk": "POL-PL-6.6", "cite": "Parental Leave Policy \u00a76.6"}, {"q": "I have already used some of my leave. is parental leave paid?", "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.", "chunk": "POL-PL-6.6", "cite": "Parental Leave Policy \u00a76.6"}, {"q": "Can I combine different types of leave?", "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.", "chunk": "POL-GL-7.1", "cite": "General Leave Policy \u00a77.1"}, {"q": "Can I combine paid leave with another leave category?", "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.", "chunk": "POL-GL-7.1", "cite": "General Leave Policy \u00a77.1"}, {"q": "Can I take different leave types back to back?", "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.", "chunk": "POL-GL-7.1", "cite": "General Leave Policy \u00a77.1"}, {"q": "Can annual and sick leave be combined?", "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.", "chunk": "POL-GL-7.1", "cite": "General Leave Policy \u00a77.1"}, {"q": "I have already used some of my leave. can I combine different types of leave?", "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.", "chunk": "POL-GL-7.1", "cite": "General Leave Policy \u00a77.1"}, {"q": "Can unapproved absence affect my attendance?", "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.", "chunk": "POL-GL-7.2", "cite": "General Leave Policy \u00a77.2"}, {"q": "What are the consequences of taking unauthorized leave?", "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.", "chunk": "POL-GL-7.2", "cite": "General Leave Policy \u00a77.2"}, {"q": "What happens if I don't get my leave approved?", "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.", "chunk": "POL-GL-7.2", "cite": "General Leave Policy \u00a77.2"}, {"q": "What happens if I take leave without approval?", "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.", "chunk": "POL-GL-7.2", "cite": "General Leave Policy \u00a77.2"}, {"q": "What if I take a day off without submitting a request?", "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.", "chunk": "POL-GL-7.2", "cite": "General Leave Policy \u00a77.2"}, {"q": "Can I see my remaining leave in the HR portal?", "a": "Your current leave balance is available in the HR portal.", "chunk": "POL-GL-7.3", "cite": "General Leave Policy \u00a77.3"}, {"q": "How do I check my vacation balance?", "a": "Your current leave balance is available in the HR portal.", "chunk": "POL-GL-7.3", "cite": "General Leave Policy \u00a77.3"}, {"q": "How do I see my leave balance?", "a": "Your current leave balance is available in the HR portal.", "chunk": "POL-GL-7.3", "cite": "General Leave Policy \u00a77.3"}, {"q": "Where can I check how many days I have left?", "a": "Your current leave balance is available in the HR portal.", "chunk": "POL-GL-7.3", "cite": "General Leave Policy \u00a77.3"}, {"q": "Where can I check my remaining leave balance?", "a": "Your current leave balance is available in the HR portal.", "chunk": "POL-GL-7.3", "cite": "General Leave Policy \u00a77.3"}, {"q": "Should I contact my manager or HR about leave?", "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.", "chunk": "POL-GL-7.4", "cite": "General Leave Policy \u00a77.4"}, {"q": "Who can help if I have an issue with my leave?", "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.", "chunk": "POL-GL-7.4", "cite": "General Leave Policy \u00a77.4"}, {"q": "Who do I contact for leave policy questions?", "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.", "chunk": "POL-GL-7.4", "cite": "General Leave Policy \u00a77.4"}, {"q": "Who handles leave questions?", "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.", "chunk": "POL-GL-7.4", "cite": "General Leave Policy \u00a77.4"}, {"q": "Who should I contact about a leave problem?", "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.", "chunk": "POL-GL-7.4", "cite": "General Leave Policy \u00a77.4"}, {"q": "Can I request emergency leave?", "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.", "chunk": "POL-GL-7.5", "cite": "General Leave Policy \u00a77.5"}, {"q": "How do I request leave at short notice?", "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.", "chunk": "POL-GL-7.5", "cite": "General Leave Policy \u00a77.5"}, {"q": "What if I need to take leave immediately?", "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.", "chunk": "POL-GL-7.5", "cite": "General Leave Policy \u00a77.5"}, {"q": "What should I do if I need urgent leave?", "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.", "chunk": "POL-GL-7.5", "cite": "General Leave Policy \u00a77.5"}, {"q": "Who should I notify if an emergency requires me to take leave?", "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.", "chunk": "POL-GL-7.5", "cite": "General Leave Policy \u00a77.5"}], "contacts": {"CONTACT-HR-OPERATIONS": "HR Operations", "CONTACT-REPORTING-MANAGER": "Reporting Manager", "CONTACT-PAYROLL-HR": "Payroll / HR Operations", "CONTACT-HR-HELPDESK": "HR Helpdesk"}}
+{
+ "policies": [
+  {
+   "id": "POL-AL-3.1",
+   "name": "Annual Leave",
+   "section": "AL-3.1",
+   "title": "Entitlement",
+   "text": "Employees are entitled to 18 paid annual leave days per calendar year.",
+   "rule": "18 paid days per calendar year.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.2",
+   "name": "Annual Leave",
+   "section": "AL-3.2",
+   "title": "Application",
+   "text": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.",
+   "rule": "Submit through the HR portal.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.3",
+   "name": "Annual Leave",
+   "section": "AL-3.3",
+   "title": "Notice",
+   "text": "Employees should normally submit annual leave requests at least 3 working days before the intended leave date.",
+   "rule": "3 working days' advance notice.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.4",
+   "name": "Annual Leave",
+   "section": "AL-3.4",
+   "title": "Half-day Leave",
+   "text": "Annual leave may be taken in half-day increments.",
+   "rule": "Minimum increment: 0.5 day.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.5",
+   "name": "Annual Leave",
+   "section": "AL-3.5",
+   "title": "Carry Forward",
+   "text": "Up to 5 unused annual leave days may be carried forward to the following calendar year. Carry-forward days expire after the following calendar year.",
+   "rule": "Maximum carry-forward: 5 days.",
+   "cat": "Annual Leave",
+   "form": "",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.6",
+   "name": "Annual Leave",
+   "section": "AL-3.6",
+   "title": "Encashment",
+   "text": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.",
+   "rule": "Eligibility is determined during separation processing.",
+   "cat": "Annual Leave",
+   "form": "Separation/Leave Encashment Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.7",
+   "name": "Annual Leave",
+   "section": "AL-3.7",
+   "title": "Approval",
+   "text": "A manager may decline or request a different leave date when there is a genuine operational requirement.",
+   "rule": "Manager approval is required.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-AL-3.8",
+   "name": "Annual Leave",
+   "section": "AL-3.8",
+   "title": "Separation",
+   "text": "Eligible unused annual leave is handled during separation according to the leave encashment policy.",
+   "rule": "Final treatment is determined during separation processing.",
+   "cat": "Annual Leave",
+   "form": "Separation/Leave Encashment Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.1",
+   "name": "Sick Leave",
+   "section": "SL-4.1",
+   "title": "Entitlement",
+   "text": "Employees receive 10 paid sick leave days per calendar year.",
+   "rule": "10 paid days per calendar year.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.2",
+   "name": "Sick Leave",
+   "section": "SL-4.2",
+   "title": "Application",
+   "text": "Sick leave should be recorded through the HR portal as soon as reasonably possible.",
+   "rule": "Notify the company and record the absence in the HR portal.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.3",
+   "name": "Sick Leave",
+   "section": "SL-4.3",
+   "title": "Medical Certificate",
+   "text": "A medical certificate is required when sick leave exceeds 2 consecutive working days.",
+   "rule": "Medical certificate required after 2 consecutive working days.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.4",
+   "name": "Sick Leave",
+   "section": "SL-4.4",
+   "title": "Unexpected Illness",
+   "text": "If an employee becomes suddenly ill and cannot apply beforehand, they should notify their manager as soon as reasonably possible and record the sick leave when able.",
+   "rule": "Prompt notification is required where practical.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Request Form",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-SL-4.5",
+   "name": "Sick Leave",
+   "section": "SL-4.5",
+   "title": "Half-day Leave",
+   "text": "Sick leave may be taken in half-day increments.",
+   "rule": "Minimum increment: 0.5 day.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.6",
+   "name": "Sick Leave",
+   "section": "SL-4.6",
+   "title": "Carry Forward",
+   "text": "Unused sick leave does not carry forward to the next calendar year.",
+   "rule": "No carry-forward.",
+   "cat": "Sick Leave",
+   "form": "",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-UL-5.1",
+   "name": "Unpaid Leave",
+   "section": "UL-5.1",
+   "title": "Eligibility",
+   "text": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.",
+   "rule": "Paid leave should generally be exhausted first, unless HR approves otherwise.",
+   "cat": "Unpaid Leave",
+   "form": "Unpaid Leave Request Form",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-UL-5.2",
+   "name": "Unpaid Leave",
+   "section": "UL-5.2",
+   "title": "Application",
+   "text": "Employees must submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.",
+   "rule": "Manager and HR approval required.",
+   "cat": "Unpaid Leave",
+   "form": "Unpaid Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-UL-5.3",
+   "name": "Unpaid Leave",
+   "section": "UL-5.3",
+   "title": "Approval",
+   "text": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.",
+   "rule": "Approval is case-by-case.",
+   "cat": "Unpaid Leave",
+   "form": "Unpaid Leave Request Form",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-UL-5.4",
+   "name": "Unpaid Leave",
+   "section": "UL-5.4",
+   "title": "Salary Impact",
+   "text": "Salary is reduced in proportion to approved unpaid leave days.",
+   "rule": "Unpaid days are unpaid and reduce salary accordingly.",
+   "cat": "Unpaid Leave",
+   "form": "Unpaid Leave Request Form",
+   "contact": "CONTACT-PAYROLL-HR"
+  },
+  {
+   "id": "POL-PL-6.1",
+   "name": "Parental Leave",
+   "section": "PL-6.1",
+   "title": "Entitlement",
+   "text": "Eligible employees may receive 16 weeks of paid parental leave.",
+   "rule": "16 weeks paid parental leave.",
+   "cat": "Parental Leave",
+   "form": "Parental Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PL-6.2",
+   "name": "Parental Leave",
+   "section": "PL-6.2",
+   "title": "Eligibility",
+   "text": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.",
+   "rule": "Minimum service: 6 continuous months.",
+   "cat": "Parental Leave",
+   "form": "Parental Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PL-6.3",
+   "name": "Parental Leave",
+   "section": "PL-6.3",
+   "title": "Notice",
+   "text": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.",
+   "rule": "30 days' advance notice where reasonably possible.",
+   "cat": "Parental Leave",
+   "form": "Parental Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PL-6.4",
+   "name": "Parental Leave",
+   "section": "PL-6.4",
+   "title": "Documentation",
+   "text": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.",
+   "rule": "Supporting documentation may be required.",
+   "cat": "Parental Leave",
+   "form": "Parental Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PL-6.5",
+   "name": "Parental Leave",
+   "section": "PL-6.5",
+   "title": "Splitting Leave",
+   "text": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.",
+   "rule": "Maximum: two blocks.",
+   "cat": "Parental Leave",
+   "form": "Parental Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PL-6.6",
+   "name": "Parental Leave",
+   "section": "PL-6.6",
+   "title": "Paid Status",
+   "text": "Eligible parental leave is paid for up to 16 weeks under company policy.",
+   "rule": "Paid for up to 16 weeks.",
+   "cat": "Parental Leave",
+   "form": "Parental Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-GL-7.1",
+   "name": "General Leave",
+   "section": "GL-7.1",
+   "title": "Combining Leave",
+   "text": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.",
+   "rule": "Each leave type must independently satisfy its requirements.",
+   "cat": "General Leave",
+   "form": "Relevant Leave Form(s)",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-GL-7.2",
+   "name": "General Leave",
+   "section": "GL-7.2",
+   "title": "Unauthorized Absence",
+   "text": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.",
+   "rule": "Approval should be obtained before leave except in genuine emergencies.",
+   "cat": "General Leave",
+   "form": "Leave Regularization Form",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-GL-7.3",
+   "name": "General Leave",
+   "section": "GL-7.3",
+   "title": "Leave Balance",
+   "text": "Employees can view their current leave balance in the HR portal.",
+   "rule": "Check the HR portal for the current balance.",
+   "cat": "General Leave",
+   "form": "HR Portal",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-GL-7.4",
+   "name": "General Leave",
+   "section": "GL-7.4",
+   "title": "Support",
+   "text": "Employees should contact their reporting manager for approval questions and HR Operations for policy or system questions.",
+   "rule": "Manager: approval. HR: policy/system support.",
+   "cat": "General Leave",
+   "form": "HR Helpdesk",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-GL-7.5",
+   "name": "General Leave",
+   "section": "GL-7.5",
+   "title": "Urgent Leave",
+   "text": "For urgent leave, employees should notify their reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.",
+   "rule": "Prompt manager notification is expected.",
+   "cat": "General Leave",
+   "form": "Relevant Leave Form",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-BL-8.1",
+   "name": "Bereavement Leave",
+   "section": "BL-8.1",
+   "title": "Entitlement",
+   "text": "Employees may receive up to 5 paid working days of bereavement leave following the death of an immediate family member.",
+   "rule": "Up to 5 paid working days.",
+   "cat": "Bereavement Leave",
+   "form": "Bereavement Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-BL-8.2",
+   "name": "Bereavement Leave",
+   "section": "BL-8.2",
+   "title": "Eligibility",
+   "text": "Bereavement leave applies to the death of an immediate family member, including a spouse, parent, child, sibling, or legal guardian.",
+   "rule": "Immediate-family relationship must apply.",
+   "cat": "Bereavement Leave",
+   "form": "Bereavement Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-BL-8.3",
+   "name": "Bereavement Leave",
+   "section": "BL-8.3",
+   "title": "Application",
+   "text": "Employees should notify their manager as soon as reasonably possible and submit the Bereavement Leave Form when practical.",
+   "rule": "Prompt notification; documentation may be requested.",
+   "cat": "Bereavement Leave",
+   "form": "Bereavement Leave Form",
+   "contact": "CONTACT-REPORTING-MANAGER"
+  },
+  {
+   "id": "POL-ML-7.1",
+   "name": "Maternity Leave",
+   "section": "ML-7.1",
+   "title": "Entitlement",
+   "text": "Eligible birthing employees may take up to 26 weeks of paid maternity leave.",
+   "rule": "26 weeks paid maternity leave.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.2",
+   "name": "Maternity Leave",
+   "section": "ML-7.2",
+   "title": "Start Date",
+   "text": "Maternity leave may begin up to 8 weeks before the expected date of delivery.",
+   "rule": "May start up to 8 weeks before expected delivery.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.3",
+   "name": "Maternity Leave",
+   "section": "ML-7.3",
+   "title": "Notice and Documentation",
+   "text": "Employees should notify HR at least 8 weeks before the planned start date and provide a medical certificate confirming the expected delivery date.",
+   "rule": "8 weeks' notice plus medical certificate.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.4",
+   "name": "Maternity Leave",
+   "section": "ML-7.4",
+   "title": "Return to Work",
+   "text": "Employees returning from maternity leave are entitled to return to the same or an equivalent role and may request flexible working for up to 6 months after return.",
+   "rule": "Same/equivalent role; flexible working up to 6 months.",
+   "cat": "Maternity Leave",
+   "form": "Flexible Working Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.5",
+   "name": "Maternity Leave",
+   "section": "ML-7.5",
+   "title": "Nursing Breaks",
+   "text": "Employees returning from maternity leave are entitled to two paid 30-minute nursing breaks per working day until the child is 15 months old.",
+   "rule": "Two paid 30-minute breaks daily until child is 15 months.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PT-8.1",
+   "name": "Paternity Leave",
+   "section": "PT-8.1",
+   "title": "Entitlement",
+   "text": "Eligible non-birthing parents, including fathers and partners, may take up to 2 weeks of paid paternity leave.",
+   "rule": "2 weeks paid paternity leave.",
+   "cat": "Paternity Leave",
+   "form": "Paternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PT-8.2",
+   "name": "Paternity Leave",
+   "section": "PT-8.2",
+   "title": "Timing",
+   "text": "Paternity leave must be taken within 6 months of the child's birth or placement, continuously or in two separate weeks.",
+   "rule": "Within 6 months; up to two blocks.",
+   "cat": "Paternity Leave",
+   "form": "Paternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PT-8.3",
+   "name": "Paternity Leave",
+   "section": "PT-8.3",
+   "title": "Notice",
+   "text": "Employees should give at least 4 weeks' notice of paternity leave where reasonably possible.",
+   "rule": "4 weeks' notice where possible.",
+   "cat": "Paternity Leave",
+   "form": "Paternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PG-9.1",
+   "name": "Pregnancy-Related Leave",
+   "section": "PG-9.1",
+   "title": "Prenatal Appointments",
+   "text": "Pregnant employees are entitled to paid time off to attend prenatal medical appointments, and partners may take paid time off to attend up to 2 such appointments.",
+   "rule": "Paid prenatal appointments; partners up to 2.",
+   "cat": "Pregnancy-Related Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PG-9.2",
+   "name": "Pregnancy-Related Leave",
+   "section": "PG-9.2",
+   "title": "Pregnancy-Related Illness",
+   "text": "Absence due to pregnancy-related illness is recorded separately from regular sick leave and does not reduce the sick leave balance.",
+   "rule": "Separate from sick leave balance.",
+   "cat": "Pregnancy-Related Leave",
+   "form": "Sick Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PG-9.3",
+   "name": "Pregnancy-Related Leave",
+   "section": "PG-9.3",
+   "title": "Pregnancy Loss",
+   "text": "Employees who experience miscarriage or stillbirth, and their partners, may take up to 2 weeks of paid leave.",
+   "rule": "Up to 2 weeks paid leave.",
+   "cat": "Pregnancy-Related Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AD-10.1",
+   "name": "Adoption Leave",
+   "section": "AD-10.1",
+   "title": "Entitlement",
+   "text": "The primary adopter may take up to 16 weeks of paid adoption leave from the date of placement; the secondary adopter is eligible for paternity leave.",
+   "rule": "Primary adopter 16 weeks paid; secondary adopter uses paternity leave.",
+   "cat": "Adoption Leave",
+   "form": "Adoption Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  }
+ ],
+ "faqs": [
+  {
+   "q": "Do employees get 18 paid leave days?",
+   "a": "Employees are entitled to 18 paid annual leave days per calendar year.",
+   "chunk": "POL-AL-3.1",
+   "cite": "Annual Leave Policy §3.1"
+  },
+  {
+   "q": "How many days of paid leave are available to me?",
+   "a": "Employees are entitled to 18 paid annual leave days per calendar year.",
+   "chunk": "POL-AL-3.1",
+   "cite": "Annual Leave Policy §3.1"
+  },
+  {
+   "q": "How many paid annual leave days do I get?",
+   "a": "Employees are entitled to 18 paid annual leave days per calendar year.",
+   "chunk": "POL-AL-3.1",
+   "cite": "Annual Leave Policy §3.1"
+  },
+  {
+   "q": "How many paid leave days can I use in a year?",
+   "a": "Employees are entitled to 18 paid annual leave days per calendar year.",
+   "chunk": "POL-AL-3.1",
+   "cite": "Annual Leave Policy §3.1"
+  },
+  {
+   "q": "How much paid time off do employees receive?",
+   "a": "Employees are entitled to 18 paid annual leave days per calendar year.",
+   "chunk": "POL-AL-3.1",
+   "cite": "Annual Leave Policy §3.1"
+  },
+  {
+   "q": "Can I request annual leave through the HR portal?",
+   "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.",
+   "chunk": "POL-AL-3.2",
+   "cite": "Annual Leave Policy §3.2"
+  },
+  {
+   "q": "How can I put in a leave request?",
+   "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.",
+   "chunk": "POL-AL-3.2",
+   "cite": "Annual Leave Policy §3.2"
+  },
+  {
+   "q": "How do I apply for annual leave?",
+   "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.",
+   "chunk": "POL-AL-3.2",
+   "cite": "Annual Leave Policy §3.2"
+  },
+  {
+   "q": "How do I book my paid leave?",
+   "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.",
+   "chunk": "POL-AL-3.2",
+   "cite": "Annual Leave Policy §3.2"
+  },
+  {
+   "q": "How do I submit paid time off?",
+   "a": "Annual leave must be requested through the HR portal using the Annual Leave Request Form.",
+   "chunk": "POL-AL-3.2",
+   "cite": "Annual Leave Policy §3.2"
+  },
+  {
+   "q": "Can I request annual leave at short notice?",
+   "a": "Employees should normally submit annual leave requests at least 3 working days in advance.",
+   "chunk": "POL-AL-3.3",
+   "cite": "Annual Leave Policy §3.3"
+  },
+  {
+   "q": "Do I need to give 3 working days' notice?",
+   "a": "Employees should normally submit annual leave requests at least 3 working days in advance.",
+   "chunk": "POL-AL-3.3",
+   "cite": "Annual Leave Policy §3.3"
+  },
+  {
+   "q": "How early should my annual leave request be?",
+   "a": "Employees should normally submit annual leave requests at least 3 working days in advance.",
+   "chunk": "POL-AL-3.3",
+   "cite": "Annual Leave Policy §3.3"
+  },
+  {
+   "q": "How far in advance should I request annual leave?",
+   "a": "Employees should normally submit annual leave requests at least 3 working days in advance.",
+   "chunk": "POL-AL-3.3",
+   "cite": "Annual Leave Policy §3.3"
+  },
+  {
+   "q": "How many days before leave should I apply?",
+   "a": "Employees should normally submit annual leave requests at least 3 working days in advance.",
+   "chunk": "POL-AL-3.3",
+   "cite": "Annual Leave Policy §3.3"
+  },
+  {
+   "q": "Are half-day leave requests allowed?",
+   "a": "Annual leave may be taken in half-day increments.",
+   "chunk": "POL-AL-3.4",
+   "cite": "Annual Leave Policy §3.4"
+  },
+  {
+   "q": "Can I request a half day off?",
+   "a": "Annual leave may be taken in half-day increments.",
+   "chunk": "POL-AL-3.4",
+   "cite": "Annual Leave Policy §3.4"
+  },
+  {
+   "q": "Can I take 0.5 days of annual leave?",
+   "a": "Annual leave may be taken in half-day increments.",
+   "chunk": "POL-AL-3.4",
+   "cite": "Annual Leave Policy §3.4"
+  },
+  {
+   "q": "Can I take half-day annual leave?",
+   "a": "Annual leave may be taken in half-day increments.",
+   "chunk": "POL-AL-3.4",
+   "cite": "Annual Leave Policy §3.4"
+  },
+  {
+   "q": "Can I use annual leave in half-day increments?",
+   "a": "Annual leave may be taken in half-day increments.",
+   "chunk": "POL-AL-3.4",
+   "cite": "Annual Leave Policy §3.4"
+  },
+  {
+   "q": "Can I roll over my leave balance?",
+   "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.",
+   "chunk": "POL-AL-3.5",
+   "cite": "Annual Leave Policy §3.5"
+  },
+  {
+   "q": "Can I save unused vacation for next year?",
+   "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.",
+   "chunk": "POL-AL-3.5",
+   "cite": "Annual Leave Policy §3.5"
+  },
+  {
+   "q": "Can unused annual leave be carried forward?",
+   "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.",
+   "chunk": "POL-AL-3.5",
+   "cite": "Annual Leave Policy §3.5"
+  },
+  {
+   "q": "Do my unused paid leave days expire?",
+   "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.",
+   "chunk": "POL-AL-3.5",
+   "cite": "Annual Leave Policy §3.5"
+  },
+  {
+   "q": "How many annual leave days can I carry over?",
+   "a": "Up to 5 unused annual leave days may be carried forward to the following calendar year.",
+   "chunk": "POL-AL-3.5",
+   "cite": "Annual Leave Policy §3.5"
+  },
+  {
+   "q": "Can I cash out my remaining leave?",
+   "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.",
+   "chunk": "POL-AL-3.6",
+   "cite": "Annual Leave Policy §3.6"
+  },
+  {
+   "q": "Can I encash unused annual leave?",
+   "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.",
+   "chunk": "POL-AL-3.6",
+   "cite": "Annual Leave Policy §3.6"
+  },
+  {
+   "q": "Can unused vacation days be paid out?",
+   "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.",
+   "chunk": "POL-AL-3.6",
+   "cite": "Annual Leave Policy §3.6"
+  },
+  {
+   "q": "Do I get money for unused annual leave?",
+   "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.",
+   "chunk": "POL-AL-3.6",
+   "cite": "Annual Leave Policy §3.6"
+  },
+  {
+   "q": "Is leave encashment available when I leave the company?",
+   "a": "Eligible unused annual leave may be encashed at separation, subject to company policy and applicable rules.",
+   "chunk": "POL-AL-3.6",
+   "cite": "Annual Leave Policy §3.6"
+  },
+  {
+   "q": "Can a manager decline my leave?",
+   "a": "A manager may decline or request a different date when there is a genuine operational requirement.",
+   "chunk": "POL-AL-3.7",
+   "cite": "Annual Leave Policy §3.7"
+  },
+  {
+   "q": "Can business requirements affect my leave approval?",
+   "a": "A manager may decline or request a different date when there is a genuine operational requirement.",
+   "chunk": "POL-AL-3.7",
+   "cite": "Annual Leave Policy §3.7"
+  },
+  {
+   "q": "Can my annual leave request be rejected?",
+   "a": "A manager may decline or request a different date when there is a genuine operational requirement.",
+   "chunk": "POL-AL-3.7",
+   "cite": "Annual Leave Policy §3.7"
+  },
+  {
+   "q": "Can my manager deny my vacation request?",
+   "a": "A manager may decline or request a different date when there is a genuine operational requirement.",
+   "chunk": "POL-AL-3.7",
+   "cite": "Annual Leave Policy §3.7"
+  },
+  {
+   "q": "Under what circumstances can my leave be rejected?",
+   "a": "A manager may decline or request a different date when there is a genuine operational requirement.",
+   "chunk": "POL-AL-3.7",
+   "cite": "Annual Leave Policy §3.7"
+  },
+  {
+   "q": "Do I lose my unused vacation when I leave the company?",
+   "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.",
+   "chunk": "POL-AL-3.8",
+   "cite": "Annual Leave Policy §3.8"
+  },
+  {
+   "q": "Is unused leave settled when employment ends?",
+   "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.",
+   "chunk": "POL-AL-3.8",
+   "cite": "Annual Leave Policy §3.8"
+  },
+  {
+   "q": "What happens to my leave balance when I resign?",
+   "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.",
+   "chunk": "POL-AL-3.8",
+   "cite": "Annual Leave Policy §3.8"
+  },
+  {
+   "q": "What happens to my unused annual leave when I leave?",
+   "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.",
+   "chunk": "POL-AL-3.8",
+   "cite": "Annual Leave Policy §3.8"
+  },
+  {
+   "q": "Will my remaining annual leave be paid when I leave?",
+   "a": "Eligible unused annual leave is handled during separation according to the leave encashment policy.",
+   "chunk": "POL-AL-3.8",
+   "cite": "Annual Leave Policy §3.8"
+  },
+  {
+   "q": "Do I get 10 paid sick days?",
+   "a": "Employees receive 10 paid sick leave days per calendar year.",
+   "chunk": "POL-SL-4.1",
+   "cite": "Sick Leave Policy §4.1"
+  },
+  {
+   "q": "How many paid sick leave days do I get?",
+   "a": "Employees receive 10 paid sick leave days per calendar year.",
+   "chunk": "POL-SL-4.1",
+   "cite": "Sick Leave Policy §4.1"
+  },
+  {
+   "q": "How many sick days can I take each year?",
+   "a": "Employees receive 10 paid sick leave days per calendar year.",
+   "chunk": "POL-SL-4.1",
+   "cite": "Sick Leave Policy §4.1"
+  },
+  {
+   "q": "How much sick leave am I entitled to?",
+   "a": "Employees receive 10 paid sick leave days per calendar year.",
+   "chunk": "POL-SL-4.1",
+   "cite": "Sick Leave Policy §4.1"
+  },
+  {
+   "q": "What is the company's sick leave entitlement?",
+   "a": "Employees receive 10 paid sick leave days per calendar year.",
+   "chunk": "POL-SL-4.1",
+   "cite": "Sick Leave Policy §4.1"
+  },
+  {
+   "q": "How do I apply for sick leave?",
+   "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.",
+   "chunk": "POL-SL-4.2",
+   "cite": "Sick Leave Policy §4.2"
+  },
+  {
+   "q": "How do I record a sick day?",
+   "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.",
+   "chunk": "POL-SL-4.2",
+   "cite": "Sick Leave Policy §4.2"
+  },
+  {
+   "q": "How do I submit a sick leave request?",
+   "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.",
+   "chunk": "POL-SL-4.2",
+   "cite": "Sick Leave Policy §4.2"
+  },
+  {
+   "q": "What's the process for taking sick leave?",
+   "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.",
+   "chunk": "POL-SL-4.2",
+   "cite": "Sick Leave Policy §4.2"
+  },
+  {
+   "q": "Where can I enter sick leave in the HR system?",
+   "a": "Sick leave should be recorded through the HR portal as soon as reasonably possible.",
+   "chunk": "POL-SL-4.2",
+   "cite": "Sick Leave Policy §4.2"
+  },
+  {
+   "q": "Do I need a medical certificate for sick leave?",
+   "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.",
+   "chunk": "POL-SL-4.3",
+   "cite": "Sick Leave Policy §4.3"
+  },
+  {
+   "q": "Do I need proof from a doctor if I'm sick?",
+   "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.",
+   "chunk": "POL-SL-4.3",
+   "cite": "Sick Leave Policy §4.3"
+  },
+  {
+   "q": "How many sick days can I take before a medical certificate is required?",
+   "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.",
+   "chunk": "POL-SL-4.3",
+   "cite": "Sick Leave Policy §4.3"
+  },
+  {
+   "q": "Is a medical certificate needed for more than two days?",
+   "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.",
+   "chunk": "POL-SL-4.3",
+   "cite": "Sick Leave Policy §4.3"
+  },
+  {
+   "q": "When is a doctor's note required?",
+   "a": "A medical certificate is required when sick leave exceeds 2 consecutive working days.",
+   "chunk": "POL-SL-4.3",
+   "cite": "Sick Leave Policy §4.3"
+  },
+  {
+   "q": "Can I notify my manager after becoming ill?",
+   "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.",
+   "chunk": "POL-SL-4.4",
+   "cite": "Sick Leave Policy §4.4"
+  },
+  {
+   "q": "How do I report an emergency sick day?",
+   "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.",
+   "chunk": "POL-SL-4.4",
+   "cite": "Sick Leave Policy §4.4"
+  },
+  {
+   "q": "What if I am too sick to submit leave in advance?",
+   "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.",
+   "chunk": "POL-SL-4.4",
+   "cite": "Sick Leave Policy §4.4"
+  },
+  {
+   "q": "What if I suddenly become sick and cannot apply beforehand?",
+   "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.",
+   "chunk": "POL-SL-4.4",
+   "cite": "Sick Leave Policy §4.4"
+  },
+  {
+   "q": "What should I do if I get sick unexpectedly?",
+   "a": "Notify your manager as soon as reasonably possible and record the sick leave in the HR portal when you can.",
+   "chunk": "POL-SL-4.4",
+   "cite": "Sick Leave Policy §4.4"
+  },
+  {
+   "q": "Are half-day sick days allowed?",
+   "a": "Sick leave may be taken in half-day increments.",
+   "chunk": "POL-SL-4.5",
+   "cite": "Sick Leave Policy §4.5"
+  },
+  {
+   "q": "Can I take half-day sick leave?",
+   "a": "Sick leave may be taken in half-day increments.",
+   "chunk": "POL-SL-4.5",
+   "cite": "Sick Leave Policy §4.5"
+  },
+  {
+   "q": "Can I use 0.5 sick days?",
+   "a": "Sick leave may be taken in half-day increments.",
+   "chunk": "POL-SL-4.5",
+   "cite": "Sick Leave Policy §4.5"
+  },
+  {
+   "q": "Can sick leave be taken for half a day?",
+   "a": "Sick leave may be taken in half-day increments.",
+   "chunk": "POL-SL-4.5",
+   "cite": "Sick Leave Policy §4.5"
+  },
+  {
+   "q": "I have already used some of my leave. can I take half-day sick leave?",
+   "a": "Sick leave may be taken in half-day increments.",
+   "chunk": "POL-SL-4.5",
+   "cite": "Sick Leave Policy §4.5"
+  },
+  {
+   "q": "Can I save sick leave for the following year?",
+   "a": "Unused sick leave does not carry forward to the next calendar year.",
+   "chunk": "POL-SL-4.6",
+   "cite": "Sick Leave Policy §4.6"
+  },
+  {
+   "q": "Can unused sick leave be carried forward?",
+   "a": "Unused sick leave does not carry forward to the next calendar year.",
+   "chunk": "POL-SL-4.6",
+   "cite": "Sick Leave Policy §4.6"
+  },
+  {
+   "q": "Do unused sick days expire?",
+   "a": "Unused sick leave does not carry forward to the next calendar year.",
+   "chunk": "POL-SL-4.6",
+   "cite": "Sick Leave Policy §4.6"
+  },
+  {
+   "q": "Does sick leave roll over to next year?",
+   "a": "Unused sick leave does not carry forward to the next calendar year.",
+   "chunk": "POL-SL-4.6",
+   "cite": "Sick Leave Policy §4.6"
+  },
+  {
+   "q": "I have already used some of my leave. can unused sick leave be carried forward?",
+   "a": "Unused sick leave does not carry forward to the next calendar year.",
+   "chunk": "POL-SL-4.6",
+   "cite": "Sick Leave Policy §4.6"
+  },
+  {
+   "q": "Am I allowed to take unpaid leave?",
+   "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.",
+   "chunk": "POL-UL-5.1",
+   "cite": "Unpaid Leave Policy §5.1"
+  },
+  {
+   "q": "Can I take time off without pay?",
+   "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.",
+   "chunk": "POL-UL-5.1",
+   "cite": "Unpaid Leave Policy §5.1"
+  },
+  {
+   "q": "Can I take unpaid leave?",
+   "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.",
+   "chunk": "POL-UL-5.1",
+   "cite": "Unpaid Leave Policy §5.1"
+  },
+  {
+   "q": "Is unpaid leave available if I have used all my paid leave?",
+   "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.",
+   "chunk": "POL-UL-5.1",
+   "cite": "Unpaid Leave Policy §5.1"
+  },
+  {
+   "q": "When can an employee request unpaid leave?",
+   "a": "Unpaid leave may be requested when paid leave has been exhausted or for a genuine personal reason, subject to approval.",
+   "chunk": "POL-UL-5.1",
+   "cite": "Unpaid Leave Policy §5.1"
+  },
+  {
+   "q": "How can I apply for leave without pay?",
+   "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.",
+   "chunk": "POL-UL-5.2",
+   "cite": "Unpaid Leave Policy §5.2"
+  },
+  {
+   "q": "How do I request unpaid leave?",
+   "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.",
+   "chunk": "POL-UL-5.2",
+   "cite": "Unpaid Leave Policy §5.2"
+  },
+  {
+   "q": "What's the process for unpaid leave?",
+   "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.",
+   "chunk": "POL-UL-5.2",
+   "cite": "Unpaid Leave Policy §5.2"
+  },
+  {
+   "q": "Where do I submit an unpaid leave request?",
+   "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.",
+   "chunk": "POL-UL-5.2",
+   "cite": "Unpaid Leave Policy §5.2"
+  },
+  {
+   "q": "Which form do I need for unpaid leave?",
+   "a": "Submit an Unpaid Leave Request Form through the HR portal and obtain the required manager and HR approvals.",
+   "chunk": "POL-UL-5.2",
+   "cite": "Unpaid Leave Policy §5.2"
+  },
+  {
+   "q": "Can unpaid leave be approved for personal reasons?",
+   "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.",
+   "chunk": "POL-UL-5.3",
+   "cite": "Unpaid Leave Policy §5.3"
+  },
+  {
+   "q": "What are the requirements for unpaid leave approval?",
+   "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.",
+   "chunk": "POL-UL-5.3",
+   "cite": "Unpaid Leave Policy §5.3"
+  },
+  {
+   "q": "What factors are considered for unpaid leave?",
+   "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.",
+   "chunk": "POL-UL-5.3",
+   "cite": "Unpaid Leave Policy §5.3"
+  },
+  {
+   "q": "When can unpaid leave be approved?",
+   "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.",
+   "chunk": "POL-UL-5.3",
+   "cite": "Unpaid Leave Policy §5.3"
+  },
+  {
+   "q": "Who approves unpaid leave?",
+   "a": "Approval depends on the reason, operational impact, available paid leave, and manager and HR review.",
+   "chunk": "POL-UL-5.3",
+   "cite": "Unpaid Leave Policy §5.3"
+  },
+  {
+   "q": "Does unpaid leave affect my salary?",
+   "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.",
+   "chunk": "POL-UL-5.4",
+   "cite": "Unpaid Leave Policy §5.4"
+  },
+  {
+   "q": "How does unpaid leave affect payroll?",
+   "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.",
+   "chunk": "POL-UL-5.4",
+   "cite": "Unpaid Leave Policy §5.4"
+  },
+  {
+   "q": "How much pay is lost during unpaid leave?",
+   "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.",
+   "chunk": "POL-UL-5.4",
+   "cite": "Unpaid Leave Policy §5.4"
+  },
+  {
+   "q": "Is salary deducted for unpaid leave?",
+   "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.",
+   "chunk": "POL-UL-5.4",
+   "cite": "Unpaid Leave Policy §5.4"
+  },
+  {
+   "q": "Will I lose pay if I take unpaid leave?",
+   "a": "Yes. Salary is reduced in proportion to approved unpaid leave days.",
+   "chunk": "POL-UL-5.4",
+   "cite": "Unpaid Leave Policy §5.4"
+  },
+  {
+   "q": "Do eligible employees get 16 weeks of parental leave?",
+   "a": "Eligible employees may receive 16 weeks of paid parental leave.",
+   "chunk": "POL-PL-6.1",
+   "cite": "Parental Leave Policy §6.1"
+  },
+  {
+   "q": "How many weeks of parental leave do I get?",
+   "a": "Eligible employees may receive 16 weeks of paid parental leave.",
+   "chunk": "POL-PL-6.1",
+   "cite": "Parental Leave Policy §6.1"
+  },
+  {
+   "q": "How much paid parental leave does the company provide?",
+   "a": "Eligible employees may receive 16 weeks of paid parental leave.",
+   "chunk": "POL-PL-6.1",
+   "cite": "Parental Leave Policy §6.1"
+  },
+  {
+   "q": "How much parental leave is available?",
+   "a": "Eligible employees may receive 16 weeks of paid parental leave.",
+   "chunk": "POL-PL-6.1",
+   "cite": "Parental Leave Policy §6.1"
+  },
+  {
+   "q": "What is the parental leave allowance?",
+   "a": "Eligible employees may receive 16 weeks of paid parental leave.",
+   "chunk": "POL-PL-6.1",
+   "cite": "Parental Leave Policy §6.1"
+  },
+  {
+   "q": "Do I qualify for parental leave?",
+   "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.",
+   "chunk": "POL-PL-6.2",
+   "cite": "Parental Leave Policy §6.2"
+  },
+  {
+   "q": "How long must I work here before parental leave?",
+   "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.",
+   "chunk": "POL-PL-6.2",
+   "cite": "Parental Leave Policy §6.2"
+  },
+  {
+   "q": "Is there a minimum service requirement for parental leave?",
+   "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.",
+   "chunk": "POL-PL-6.2",
+   "cite": "Parental Leave Policy §6.2"
+  },
+  {
+   "q": "What are the eligibility requirements for parental leave?",
+   "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.",
+   "chunk": "POL-PL-6.2",
+   "cite": "Parental Leave Policy §6.2"
+  },
+  {
+   "q": "Who is eligible for parental leave?",
+   "a": "Employees who have completed 6 months of continuous employment are eligible following birth, adoption, or placement of a child.",
+   "chunk": "POL-PL-6.2",
+   "cite": "Parental Leave Policy §6.2"
+  },
+  {
+   "q": "Do I need to give 30 days' notice for parental leave?",
+   "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.",
+   "chunk": "POL-PL-6.3",
+   "cite": "Parental Leave Policy §6.3"
+  },
+  {
+   "q": "How early should I request parental leave?",
+   "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.",
+   "chunk": "POL-PL-6.3",
+   "cite": "Parental Leave Policy §6.3"
+  },
+  {
+   "q": "How far in advance should parental leave be submitted?",
+   "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.",
+   "chunk": "POL-PL-6.3",
+   "cite": "Parental Leave Policy §6.3"
+  },
+  {
+   "q": "How much notice is required for parental leave?",
+   "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.",
+   "chunk": "POL-PL-6.3",
+   "cite": "Parental Leave Policy §6.3"
+  },
+  {
+   "q": "When should I tell HR about parental leave?",
+   "a": "Employees should normally submit parental leave requests 30 days in advance where reasonably possible.",
+   "chunk": "POL-PL-6.3",
+   "cite": "Parental Leave Policy §6.3"
+  },
+  {
+   "q": "Do I need supporting documents for parental leave?",
+   "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.",
+   "chunk": "POL-PL-6.4",
+   "cite": "Parental Leave Policy §6.4"
+  },
+  {
+   "q": "What documents are required for parental leave?",
+   "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.",
+   "chunk": "POL-PL-6.4",
+   "cite": "Parental Leave Policy §6.4"
+  },
+  {
+   "q": "What proof does HR need for parental leave?",
+   "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.",
+   "chunk": "POL-PL-6.4",
+   "cite": "Parental Leave Policy §6.4"
+  },
+  {
+   "q": "Which documents should I submit for adoption or birth leave?",
+   "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.",
+   "chunk": "POL-PL-6.4",
+   "cite": "Parental Leave Policy §6.4"
+  },
+  {
+   "q": "I have already used some of my leave. what documents are required for parental leave?",
+   "a": "HR may request reasonable supporting documentation relating to birth, adoption, or placement.",
+   "chunk": "POL-PL-6.4",
+   "cite": "Parental Leave Policy §6.4"
+  },
+  {
+   "q": "Can I divide parental leave into two blocks?",
+   "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.",
+   "chunk": "POL-PL-6.5",
+   "cite": "Parental Leave Policy §6.5"
+  },
+  {
+   "q": "Can I take parental leave in separate periods?",
+   "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.",
+   "chunk": "POL-PL-6.5",
+   "cite": "Parental Leave Policy §6.5"
+  },
+  {
+   "q": "Can parental leave be split into multiple periods?",
+   "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.",
+   "chunk": "POL-PL-6.5",
+   "cite": "Parental Leave Policy §6.5"
+  },
+  {
+   "q": "Is parental leave required to be continuous?",
+   "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.",
+   "chunk": "POL-PL-6.5",
+   "cite": "Parental Leave Policy §6.5"
+  },
+  {
+   "q": "I have already used some of my leave. can parental leave be split into multiple periods?",
+   "a": "Parental leave may be taken continuously or in up to two blocks, subject to HR approval.",
+   "chunk": "POL-PL-6.5",
+   "cite": "Parental Leave Policy §6.5"
+  },
+  {
+   "q": "Do I get paid during parental leave?",
+   "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.",
+   "chunk": "POL-PL-6.6",
+   "cite": "Parental Leave Policy §6.6"
+  },
+  {
+   "q": "Is parental leave paid?",
+   "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.",
+   "chunk": "POL-PL-6.6",
+   "cite": "Parental Leave Policy §6.6"
+  },
+  {
+   "q": "Is the 16-week parental leave fully paid?",
+   "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.",
+   "chunk": "POL-PL-6.6",
+   "cite": "Parental Leave Policy §6.6"
+  },
+  {
+   "q": "Will I receive salary while on parental leave?",
+   "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.",
+   "chunk": "POL-PL-6.6",
+   "cite": "Parental Leave Policy §6.6"
+  },
+  {
+   "q": "I have already used some of my leave. is parental leave paid?",
+   "a": "Eligible parental leave is paid for up to 16 weeks under the company policy.",
+   "chunk": "POL-PL-6.6",
+   "cite": "Parental Leave Policy §6.6"
+  },
+  {
+   "q": "Can I combine different types of leave?",
+   "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.",
+   "chunk": "POL-GL-7.1",
+   "cite": "General Leave Policy §7.1"
+  },
+  {
+   "q": "Can I combine paid leave with another leave category?",
+   "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.",
+   "chunk": "POL-GL-7.1",
+   "cite": "General Leave Policy §7.1"
+  },
+  {
+   "q": "Can I take different leave types back to back?",
+   "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.",
+   "chunk": "POL-GL-7.1",
+   "cite": "General Leave Policy §7.1"
+  },
+  {
+   "q": "Can annual and sick leave be combined?",
+   "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.",
+   "chunk": "POL-GL-7.1",
+   "cite": "General Leave Policy §7.1"
+  },
+  {
+   "q": "I have already used some of my leave. can I combine different types of leave?",
+   "a": "Different leave types may be combined where each leave type's eligibility and approval requirements are met.",
+   "chunk": "POL-GL-7.1",
+   "cite": "General Leave Policy §7.1"
+  },
+  {
+   "q": "Can unapproved absence affect my attendance?",
+   "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.",
+   "chunk": "POL-GL-7.2",
+   "cite": "General Leave Policy §7.2"
+  },
+  {
+   "q": "What are the consequences of taking unauthorized leave?",
+   "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.",
+   "chunk": "POL-GL-7.2",
+   "cite": "General Leave Policy §7.2"
+  },
+  {
+   "q": "What happens if I don't get my leave approved?",
+   "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.",
+   "chunk": "POL-GL-7.2",
+   "cite": "General Leave Policy §7.2"
+  },
+  {
+   "q": "What happens if I take leave without approval?",
+   "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.",
+   "chunk": "POL-GL-7.2",
+   "cite": "General Leave Policy §7.2"
+  },
+  {
+   "q": "What if I take a day off without submitting a request?",
+   "a": "Unapproved absence may be treated as unauthorized absence and may affect attendance records and pay, subject to company procedures.",
+   "chunk": "POL-GL-7.2",
+   "cite": "General Leave Policy §7.2"
+  },
+  {
+   "q": "Can I see my remaining leave in the HR portal?",
+   "a": "Your current leave balance is available in the HR portal.",
+   "chunk": "POL-GL-7.3",
+   "cite": "General Leave Policy §7.3"
+  },
+  {
+   "q": "How do I check my vacation balance?",
+   "a": "Your current leave balance is available in the HR portal.",
+   "chunk": "POL-GL-7.3",
+   "cite": "General Leave Policy §7.3"
+  },
+  {
+   "q": "How do I see my leave balance?",
+   "a": "Your current leave balance is available in the HR portal.",
+   "chunk": "POL-GL-7.3",
+   "cite": "General Leave Policy §7.3"
+  },
+  {
+   "q": "Where can I check how many days I have left?",
+   "a": "Your current leave balance is available in the HR portal.",
+   "chunk": "POL-GL-7.3",
+   "cite": "General Leave Policy §7.3"
+  },
+  {
+   "q": "Where can I check my remaining leave balance?",
+   "a": "Your current leave balance is available in the HR portal.",
+   "chunk": "POL-GL-7.3",
+   "cite": "General Leave Policy §7.3"
+  },
+  {
+   "q": "Should I contact my manager or HR about leave?",
+   "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.",
+   "chunk": "POL-GL-7.4",
+   "cite": "General Leave Policy §7.4"
+  },
+  {
+   "q": "Who can help if I have an issue with my leave?",
+   "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.",
+   "chunk": "POL-GL-7.4",
+   "cite": "General Leave Policy §7.4"
+  },
+  {
+   "q": "Who do I contact for leave policy questions?",
+   "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.",
+   "chunk": "POL-GL-7.4",
+   "cite": "General Leave Policy §7.4"
+  },
+  {
+   "q": "Who handles leave questions?",
+   "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.",
+   "chunk": "POL-GL-7.4",
+   "cite": "General Leave Policy §7.4"
+  },
+  {
+   "q": "Who should I contact about a leave problem?",
+   "a": "Contact your reporting manager for approval questions or HR Operations for policy and system questions.",
+   "chunk": "POL-GL-7.4",
+   "cite": "General Leave Policy §7.4"
+  },
+  {
+   "q": "Can I request emergency leave?",
+   "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.",
+   "chunk": "POL-GL-7.5",
+   "cite": "General Leave Policy §7.5"
+  },
+  {
+   "q": "How do I request leave at short notice?",
+   "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.",
+   "chunk": "POL-GL-7.5",
+   "cite": "General Leave Policy §7.5"
+  },
+  {
+   "q": "What if I need to take leave immediately?",
+   "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.",
+   "chunk": "POL-GL-7.5",
+   "cite": "General Leave Policy §7.5"
+  },
+  {
+   "q": "What should I do if I need urgent leave?",
+   "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.",
+   "chunk": "POL-GL-7.5",
+   "cite": "General Leave Policy §7.5"
+  },
+  {
+   "q": "Who should I notify if an emergency requires me to take leave?",
+   "a": "Notify your reporting manager as soon as possible and submit the appropriate leave request through the HR portal when practical.",
+   "chunk": "POL-GL-7.5",
+   "cite": "General Leave Policy §7.5"
+  },
+  {
+   "q": "How much maternity leave do I get?",
+   "a": "Eligible birthing employees may take up to 26 weeks of paid maternity leave.",
+   "chunk": "POL-ML-7.1",
+   "cite": "Maternity Leave Policy §7.1"
+  },
+  {
+   "q": "When can I start my pregnancy leave before delivery?",
+   "a": "Maternity leave may begin up to 8 weeks before the expected date of delivery.",
+   "chunk": "POL-ML-7.2",
+   "cite": "Maternity Leave Policy §7.2"
+  },
+  {
+   "q": "How many days of paternity leave do fathers get?",
+   "a": "Eligible non-birthing parents may take up to 2 weeks of paid paternity leave.",
+   "chunk": "POL-PT-8.1",
+   "cite": "Paternity Leave Policy §8.1"
+  },
+  {
+   "q": "Can I take time off for prenatal or pregnancy checkups?",
+   "a": "Pregnant employees get paid time off for prenatal appointments; partners may attend up to 2.",
+   "chunk": "POL-PG-9.1",
+   "cite": "Pregnancy-Related Leave Policy §9.1"
+  },
+  {
+   "q": "Does pregnancy sickness count against my sick leave?",
+   "a": "No. Pregnancy-related illness is recorded separately from sick leave.",
+   "chunk": "POL-PG-9.2",
+   "cite": "Pregnancy-Related Leave Policy §9.2"
+  },
+  {
+   "q": "Is there leave after a miscarriage?",
+   "a": "Employees and partners may take up to 2 weeks of paid leave after miscarriage or stillbirth.",
+   "chunk": "POL-PG-9.3",
+   "cite": "Pregnancy-Related Leave Policy §9.3"
+  },
+  {
+   "q": "Do I get breastfeeding or nursing breaks after returning?",
+   "a": "Two paid 30-minute nursing breaks per day until the child is 15 months old.",
+   "chunk": "POL-ML-7.5",
+   "cite": "Maternity Leave Policy §7.5"
+  },
+  {
+   "q": "How much adoption leave is there?",
+   "a": "The primary adopter may take up to 16 weeks of paid adoption leave.",
+   "chunk": "POL-AD-10.1",
+   "cite": "Adoption Leave Policy §10.1"
+  }
+ ],
+ "contacts": {
+  "CONTACT-HR-OPERATIONS": "HR Operations",
+  "CONTACT-REPORTING-MANAGER": "Reporting Manager",
+  "CONTACT-PAYROLL-HR": "Payroll / HR Operations",
+  "CONTACT-HR-HELPDESK": "HR Helpdesk"
+ }
+}

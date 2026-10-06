@@ -1,7 +1,7 @@
 import { createServerFn } from '@tanstack/react-start';
 import { requireSupabaseAuth } from '@/integrations/supabase/auth-middleware';
 
-export type AccessRole = 'employee' | 'intern' | 'ceo';
+export type AccessRole = 'employee' | 'intern' | 'hr' | 'ceo';
 
 export const getMyAccess = createServerFn({ method: 'GET' })
   .middleware([requireSupabaseAuth])
