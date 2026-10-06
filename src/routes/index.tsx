@@ -81,7 +81,6 @@ function Login() {
     } catch { await supabase.auth.signOut(); setError('Your access could not be verified. Please try again.'); }
     finally { setPending(false); }
   }
-  const sample = demoAccounts.find(account => account.role === role);
   return <div className="flex min-h-svh">
     <aside className="hidden w-[440px] shrink-0 flex-col justify-between border-r bg-sidebar p-16 lg:flex">
       <div><Logo /><div className="mt-24 space-y-8"><h1 className="max-w-xs text-5xl leading-[1.2]">HR answers,<br />without the<br />guesswork.</h1><p className="max-w-xs text-lg leading-relaxed text-muted-foreground">A little clarity for your working day.</p></div></div>
@@ -101,7 +100,7 @@ function Login() {
           <Button type="submit" disabled={pending} className="h-12 w-full shadow-none">{pending ? 'Signing in…' : 'Sign in to NexaHR'}<ArrowRight /></Button>
         </form>
         <div className="mt-8 border-t pt-5"><Button type="button" variant="ghost" onClick={() => setDemoOpen(!demoOpen)} aria-expanded={demoOpen} className="h-auto w-full justify-between px-0 py-2 text-sm text-muted-foreground hover:bg-transparent">Sample accounts<ChevronDown className={demoOpen ? 'rotate-180' : ''} /></Button>
-          {demoOpen && sample && <div className="mt-3 space-y-3 text-sm"><p className="text-xs leading-relaxed text-muted-foreground">Public demonstration accounts only. Do not share personal or confidential information.</p><dl className="space-y-2"><div><dt className="text-xs text-muted-foreground">{ROLE_LABELS[role]} email</dt><dd className="break-all select-all">{sample.email}</dd></div><div><dt className="text-xs text-muted-foreground">Sample password</dt><dd className="break-all select-all">{sample.password}</dd></div></dl><Button variant="outline" type="button" className="w-full shadow-none" onClick={() => { setEmail(sample.email); setPassword(sample.password); setError(''); }}>Use {ROLE_LABELS[role].toLowerCase()} sample</Button></div>}
+          {demoOpen && <div className="mt-3 space-y-3 text-sm"><p className="text-xs leading-relaxed text-muted-foreground">Public demonstration accounts only. Do not share personal or confidential information.</p><ul className="divide-y rounded-md border bg-card">{demoAccounts.map(account => { const r = account.role as AccessRole; return <li key={r} className="space-y-1.5 p-3"><div className="flex items-center justify-between gap-2"><span className="text-xs font-semibold">{ROLE_LABELS[r]}</span><Button variant="outline" size="sm" type="button" className="h-7 shadow-none" onClick={() => { setRole(r); setEmail(account.email); setPassword(account.password); setError(''); }}>Use</Button></div><p className="break-all select-all text-xs">{account.email}</p><p className="break-all select-all text-xs text-muted-foreground">{account.password}</p></li>; })}</ul></div>}
         </div>
       </div>
     </main>
