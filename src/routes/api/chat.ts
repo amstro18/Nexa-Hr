@@ -19,6 +19,7 @@ export const Route = createFileRoute("/api/chat")({
         if (!token) return new Response("Unauthorized", { status: 401 });
         const sb = createClient(process.env['SUPABASE_URL']!, process.env['SUPABASE_PUBLISHABLE_KEY']!, {
           auth: { persistSession: false },
+          global: { headers: { Authorization: `Bearer ${token}` } },
         });
         const { data: user } = await sb.auth.getUser(token);
         if (!user.user) return new Response("Unauthorized", { status: 401 });
@@ -27,7 +28,9 @@ export const Route = createFileRoute("/api/chat")({
         const recent = messages.slice(-8);
         const last = [...recent].reverse().find((m) => m.role === "user");
         const q = last?.parts.map((p) => (p.type === "text" ? p.text : "")).join(" ") ?? "";
-        const { sources } = retrieve(q);
+        const { data: roleRow } = await sb.from("user_roles").select("role").eq("user_id", user.user.id).maybeSingle();
+        const roleName = ({ employee: "Employee", intern: "Intern", hr: "HR team member", ceo: "CEO" } as Record<string, string>)[roleRow?.role ?? "employee"] ?? "Employee";
+        const { sources } = retrieve(`${q} ${roleName}`, 6);
         const context = sources.length
           ? sources.map((s) => `[${s.cite} — ${s.title}] ${s.text} (Form: ${s.form || "n/a"}; Contact: ${s.contact})`).join("\n")
           : "No relevant approved context found.";
@@ -36,7 +39,7 @@ export const Route = createFileRoute("/api/chat")({
           request,
           { baseURL: "https://ai.gateway.lovable.dev", apiKey: process.env['LOVABLE_API_KEY']!, model: "openai/gpt-6-astra" },
           await convertToModelMessages(recent),
-          `${SYSTEM}\n\nAPPROVED CONTEXT:\n${context}`,
+          `${SYSTEM}\n\nThe person asking is signed in as: ${roleName}. When rules differ by role (approvals, data access, entitlements), answer for their role first, then briefly note other roles if helpful.\n\nAPPROVED CONTEXT:\n${context}`,
         ).response();
       },
     },

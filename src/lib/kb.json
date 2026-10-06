@@ -483,6 +483,655 @@
    "cat": "Adoption Leave",
    "form": "Adoption Leave Request Form",
    "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.1",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.1",
+   "title": "Employee Leave Approval",
+   "text": "For employees, annual, sick, unpaid and bereavement leave is approved by the Reporting Manager. Leave longer than 10 consecutive working days also requires HR Operations sign-off.",
+   "rule": "For employees, annual, sick, unpaid and bereavement leave is approved by the Reporting Manager.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.2",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.2",
+   "title": "Intern Leave Approval",
+   "text": "For interns, all leave is approved by the assigned Intern Mentor or Reporting Manager, and HR Operations is notified. Interns accrue 1 paid leave day per completed month of internship and are not eligible for parental, maternity or adoption pay unless their contract states otherwise; unpaid leave may be granted.",
+   "rule": "For interns, all leave is approved by the assigned Intern Mentor or Reporting Manager, and HR Operations is notified.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.3",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.3",
+   "title": "HR Staff Leave Approval",
+   "text": "For HR team members, leave is approved by the Head of HR. The Head of HR's own leave is approved by the CEO.",
+   "rule": "For HR team members, leave is approved by the Head of HR.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.4",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.4",
+   "title": "CEO Leave Approval",
+   "text": "The CEO's leave is notified to the Board Chair and recorded by HR Operations; no manager approval is required.",
+   "rule": "The CEO's leave is notified to the Board Chair and recorded by HR Operations; no manager approval is required.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.5",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.5",
+   "title": "Family Leave Approval",
+   "text": "Maternity, paternity, adoption and parental leave are approved by HR Operations after the Reporting Manager is informed. Managers cannot refuse statutory or policy family leave entitlements, but may discuss timing for paternity blocks.",
+   "rule": "Maternity, paternity, adoption and parental leave are approved by HR Operations after the Reporting Manager is informed.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.6",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.6",
+   "title": "Approval Timelines",
+   "text": "Managers should respond to leave requests within 3 working days. If no response is received, the request escalates automatically to the manager's manager, then to HR Operations.",
+   "rule": "Managers should respond to leave requests within 3 working days.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.7",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.7",
+   "title": "Rejected Requests",
+   "text": "If leave is refused, the approver must give a reason in writing. Employees may appeal to HR Operations within 5 working days.",
+   "rule": "If leave is refused, the approver must give a reason in writing.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AP-11.8",
+   "name": "Leave Approval Matrix",
+   "section": "AP-11.8",
+   "title": "Emergency Leave",
+   "text": "In an emergency, employees should inform their Reporting Manager as soon as possible, by phone if needed, and submit the leave request within 2 working days of returning.",
+   "rule": "In an emergency, employees should inform their Reporting Manager as soon as possible, by phone if needed, and submit the leave request within 2 working days of returning.",
+   "cat": "Leave Approval Matrix",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-DA-12.1",
+   "name": "Employee Data Access",
+   "section": "DA-12.1",
+   "title": "Employee Access",
+   "text": "Employees can view and update their own personal details, leave balance, payslips and documents. Employees cannot see other employees' personal data, salaries or leave reasons; they may see colleagues' names, job titles, team and work contact details in the company directory.",
+   "rule": "Employees can view and update their own personal details, leave balance, payslips and documents.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-DA-12.2",
+   "name": "Employee Data Access",
+   "section": "DA-12.2",
+   "title": "Intern Access",
+   "text": "Interns can view their own profile, leave balance, stipend statements and internship documents. Interns have directory-only access to colleagues and no access to any other personal or employment data.",
+   "rule": "Interns can view their own profile, leave balance, stipend statements and internship documents.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-DA-12.3",
+   "name": "Employee Data Access",
+   "section": "DA-12.3",
+   "title": "Manager Access",
+   "text": "Reporting Managers can see their direct reports' leave balances, leave calendar, attendance and performance records. Managers cannot see medical details, bank details or salary data unless separately authorised by HR.",
+   "rule": "Reporting Managers can see their direct reports' leave balances, leave calendar, attendance and performance records.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-DA-12.4",
+   "name": "Employee Data Access",
+   "section": "DA-12.4",
+   "title": "HR Access",
+   "text": "HR staff can access employee records, contracts, compensation, leave records and supporting documents strictly as needed for their duties. Medical documents and grievance files are restricted to named HR case owners. All HR access is logged and audited quarterly.",
+   "rule": "HR staff can access employee records, contracts, compensation, leave records and supporting documents strictly as needed for their duties.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-DA-12.5",
+   "name": "Employee Data Access",
+   "section": "DA-12.5",
+   "title": "CEO Access",
+   "text": "The CEO can view organisation-wide reports, headcount, aggregated compensation and leave statistics. Access to an individual's sensitive records (medical, grievance, disciplinary) requires a documented business reason and is provided through the Head of HR.",
+   "rule": "The CEO can view organisation-wide reports, headcount, aggregated compensation and leave statistics.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-DA-12.6",
+   "name": "Employee Data Access",
+   "section": "DA-12.6",
+   "title": "Payroll Access",
+   "text": "Payroll / HR Operations can access salary, bank and tax details solely to process pay. These details are not shared with managers or colleagues.",
+   "rule": "Payroll / HR Operations can access salary, bank and tax details solely to process pay.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-DA-12.7",
+   "name": "Employee Data Access",
+   "section": "DA-12.7",
+   "title": "Your Data Rights",
+   "text": "Any employee or intern may request a copy of the personal data held about them, or correction of inaccurate data, using the Data Access Request Form. HR will respond within 30 days.",
+   "rule": "Any employee or intern may request a copy of the personal data held about them, or correction of inaccurate data, using the Data Access Request Form.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-DA-12.8",
+   "name": "Employee Data Access",
+   "section": "DA-12.8",
+   "title": "Data Retention",
+   "text": "Leave and employment records are kept for 6 years after employment ends; medical documents for leave are kept for 2 years and then securely deleted.",
+   "rule": "Leave and employment records are kept for 6 years after employment ends; medical documents for leave are kept for 2 years and then securely deleted.",
+   "cat": "Employee Data Access",
+   "form": "Data Access Request Form",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-RR-13.1",
+   "name": "Role Responsibilities",
+   "section": "RR-13.1",
+   "title": "Employees",
+   "text": "Employees are responsible for requesting leave in advance, keeping personal details up to date, and following company policies.",
+   "rule": "Employees are responsible for requesting leave in advance, keeping personal details up to date, and following company policies.",
+   "cat": "Role Responsibilities",
+   "form": "",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-RR-13.2",
+   "name": "Role Responsibilities",
+   "section": "RR-13.2",
+   "title": "Interns",
+   "text": "Interns follow the same conduct and leave request rules as employees, report to an assigned mentor, and should raise questions with HR Operations or their mentor.",
+   "rule": "Interns follow the same conduct and leave request rules as employees, report to an assigned mentor, and should raise questions with HR Operations or their mentor.",
+   "cat": "Role Responsibilities",
+   "form": "",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-RR-13.3",
+   "name": "Role Responsibilities",
+   "section": "RR-13.3",
+   "title": "HR Team",
+   "text": "The HR team administers leave, maintains employee records, advises managers and employees on policy, manages grievances confidentially and approves family leave.",
+   "rule": "The HR team administers leave, maintains employee records, advises managers and employees on policy, manages grievances confidentially and approves family leave.",
+   "cat": "Role Responsibilities",
+   "form": "",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-RR-13.4",
+   "name": "Role Responsibilities",
+   "section": "RR-13.4",
+   "title": "CEO",
+   "text": "The CEO approves company-wide policy changes, final appeals on disciplinary matters, and exceptions to leave policy above 20 working days. The CEO does not approve routine leave for individual employees.",
+   "rule": "The CEO approves company-wide policy changes, final appeals on disciplinary matters, and exceptions to leave policy above 20 working days.",
+   "cat": "Role Responsibilities",
+   "form": "",
+   "contact": "CONTACT-HR-HELPDESK"
+  },
+  {
+   "id": "POL-AL-3.9",
+   "name": "Annual Leave",
+   "section": "AL-3.9",
+   "title": "Accrual",
+   "text": "Annual leave accrues monthly at 1.5 days per month. New joiners receive a pro-rated entitlement in their first year.",
+   "rule": "Annual leave accrues monthly at 1.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.11",
+   "name": "Annual Leave",
+   "section": "AL-3.11",
+   "title": "Advance Notice",
+   "text": "Requests of 1-2 days need 3 working days' notice; 3 or more days need 2 weeks' notice.",
+   "rule": "Requests of 1-2 days need 3 working days' notice; 3 or more days need 2 weeks' notice.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.13",
+   "name": "Annual Leave",
+   "section": "AL-3.13",
+   "title": "Public Holidays",
+   "text": "Public holidays falling during annual leave are not deducted from the annual leave balance.",
+   "rule": "Public holidays falling during annual leave are not deducted from the annual leave balance.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AL-3.14",
+   "name": "Annual Leave",
+   "section": "AL-3.14",
+   "title": "Part-Time Staff",
+   "text": "Part-time employees receive annual leave pro-rated to their contracted hours.",
+   "rule": "Part-time employees receive annual leave pro-rated to their contracted hours.",
+   "cat": "Annual Leave",
+   "form": "Annual Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.7",
+   "name": "Sick Leave",
+   "section": "SL-4.7",
+   "title": "Entitlement",
+   "text": "Employees receive 10 paid sick days per calendar year. Interns receive 5 paid sick days per internship year.",
+   "rule": "Employees receive 10 paid sick days per calendar year.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.8",
+   "name": "Sick Leave",
+   "section": "SL-4.8",
+   "title": "Reporting Sickness",
+   "text": "Inform your Reporting Manager before your normal start time on the first day of absence.",
+   "rule": "Inform your Reporting Manager before your normal start time on the first day of absence.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.10",
+   "name": "Sick Leave",
+   "section": "SL-4.10",
+   "title": "Long-Term Sickness",
+   "text": "After 10 paid sick days are used, further sickness absence may be unpaid; HR will discuss options including unpaid leave or annual leave.",
+   "rule": "After 10 paid sick days are used, further sickness absence may be unpaid; HR will discuss options including unpaid leave or annual leave.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-SL-4.11",
+   "name": "Sick Leave",
+   "section": "SL-4.11",
+   "title": "Family Sickness",
+   "text": "Up to 3 of the paid sick days per year may be used to care for a sick dependent child or family member.",
+   "rule": "Up to 3 of the paid sick days per year may be used to care for a sick dependent child or family member.",
+   "cat": "Sick Leave",
+   "form": "Sick Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-BL-5.4",
+   "name": "Bereavement Leave",
+   "section": "BL-5.4",
+   "title": "Immediate Family",
+   "text": "Up to 5 paid days for the death of a spouse/partner, child, parent or sibling.",
+   "rule": "Up to 5 paid days for the death of a spouse/partner, child, parent or sibling.",
+   "cat": "Bereavement Leave",
+   "form": "Bereavement Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-BL-5.5",
+   "name": "Bereavement Leave",
+   "section": "BL-5.5",
+   "title": "Extended Family",
+   "text": "Up to 2 paid days for the death of a grandparent, grandchild, in-law, aunt or uncle.",
+   "rule": "Up to 2 paid days for the death of a grandparent, grandchild, in-law, aunt or uncle.",
+   "cat": "Bereavement Leave",
+   "form": "Bereavement Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-BL-5.6",
+   "name": "Bereavement Leave",
+   "section": "BL-5.6",
+   "title": "Travel",
+   "text": "An additional 2 paid days may be granted if travel abroad is required, with Reporting Manager approval.",
+   "rule": "An additional 2 paid days may be granted if travel abroad is required, with Reporting Manager approval.",
+   "cat": "Bereavement Leave",
+   "form": "Bereavement Leave Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-UL-14.5",
+   "name": "Unpaid Leave",
+   "section": "UL-14.5",
+   "title": "Eligibility",
+   "text": "Employees with at least 6 months' service may request up to 30 days of unpaid leave per year after annual leave is used.",
+   "rule": "Employees with at least 6 months' service may request up to 30 days of unpaid leave per year after annual leave is used.",
+   "cat": "Unpaid Leave",
+   "form": "Unpaid Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-UL-14.6",
+   "name": "Unpaid Leave",
+   "section": "UL-14.6",
+   "title": "Approval",
+   "text": "Unpaid leave requires Reporting Manager and HR Operations approval. Longer than 30 days requires CEO approval.",
+   "rule": "Unpaid leave requires Reporting Manager and HR Operations approval.",
+   "cat": "Unpaid Leave",
+   "form": "Unpaid Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-UL-14.7",
+   "name": "Unpaid Leave",
+   "section": "UL-14.7",
+   "title": "Effect on Benefits",
+   "text": "Annual leave does not accrue during unpaid leave of more than 10 days.",
+   "rule": "Annual leave does not accrue during unpaid leave of more than 10 days.",
+   "cat": "Unpaid Leave",
+   "form": "Unpaid Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.6",
+   "name": "Maternity Leave",
+   "section": "ML-7.6",
+   "title": "Eligibility",
+   "text": "Maternity leave is available to employees with at least 80 days of service in the 12 months before the expected delivery date.",
+   "rule": "Maternity leave is available to employees with at least 80 days of service in the 12 months before the expected delivery date.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.7",
+   "name": "Maternity Leave",
+   "section": "ML-7.7",
+   "title": "Pay",
+   "text": "Maternity leave is paid at full salary for 26 weeks. A further up to 4 weeks of unpaid leave may be requested.",
+   "rule": "Maternity leave is paid at full salary for 26 weeks.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.8",
+   "name": "Maternity Leave",
+   "section": "ML-7.8",
+   "title": "Third Child Onward",
+   "text": "For a third or subsequent child, paid maternity leave is 12 weeks.",
+   "rule": "For a third or subsequent child, paid maternity leave is 12 weeks.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.9",
+   "name": "Maternity Leave",
+   "section": "ML-7.9",
+   "title": "Keeping-in-Touch Days",
+   "text": "Employees may work up to 10 optional paid keeping-in-touch days during maternity leave without ending the leave.",
+   "rule": "Employees may work up to 10 optional paid keeping-in-touch days during maternity leave without ending the leave.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.10",
+   "name": "Maternity Leave",
+   "section": "ML-7.10",
+   "title": "Benefits During Leave",
+   "text": "Annual leave continues to accrue and health benefits continue during maternity leave.",
+   "rule": "Annual leave continues to accrue and health benefits continue during maternity leave.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.11",
+   "name": "Maternity Leave",
+   "section": "ML-7.11",
+   "title": "Work From Home",
+   "text": "After maternity leave, employees may request work from home arrangements, subject to role requirements and manager approval.",
+   "rule": "After maternity leave, employees may request work from home arrangements, subject to role requirements and manager approval.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-ML-7.12",
+   "name": "Maternity Leave",
+   "section": "ML-7.12",
+   "title": "Protection",
+   "text": "No employee may be dismissed or disadvantaged because of pregnancy or maternity leave.",
+   "rule": "No employee may be dismissed or disadvantaged because of pregnancy or maternity leave.",
+   "cat": "Maternity Leave",
+   "form": "Maternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PT-8.4",
+   "name": "Paternity Leave",
+   "section": "PT-8.4",
+   "title": "Eligibility",
+   "text": "Paternity leave is available to employees with at least 6 months' service, including same-sex partners and the partner of a surrogate mother.",
+   "rule": "Paternity leave is available to employees with at least 6 months' service, including same-sex partners and the partner of a surrogate mother.",
+   "cat": "Paternity Leave",
+   "form": "Paternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PT-8.5",
+   "name": "Paternity Leave",
+   "section": "PT-8.5",
+   "title": "Pay",
+   "text": "Paternity leave is paid at full salary.",
+   "rule": "Paternity leave is paid at full salary.",
+   "cat": "Paternity Leave",
+   "form": "Paternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PT-8.6",
+   "name": "Paternity Leave",
+   "section": "PT-8.6",
+   "title": "Interns",
+   "text": "Interns may take up to 5 days of unpaid paternity leave.",
+   "rule": "Interns may take up to 5 days of unpaid paternity leave.",
+   "cat": "Paternity Leave",
+   "form": "Paternity Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PG-9.4",
+   "name": "Pregnancy-Related Leave",
+   "section": "PG-9.4",
+   "title": "Workplace Adjustments",
+   "text": "Pregnant employees may request adjustments such as flexible hours, seating or remote work; HR will complete a risk assessment.",
+   "rule": "Pregnant employees may request adjustments such as flexible hours, seating or remote work; HR will complete a risk assessment.",
+   "cat": "Pregnancy-Related Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PG-9.5",
+   "name": "Pregnancy-Related Leave",
+   "section": "PG-9.5",
+   "title": "Fertility Treatment",
+   "text": "Employees may take up to 5 paid days per year for fertility treatment (e.g. IVF) appointments.",
+   "rule": "Employees may take up to 5 paid days per year for fertility treatment (e.",
+   "cat": "Pregnancy-Related Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-PG-9.6",
+   "name": "Pregnancy-Related Leave",
+   "section": "PG-9.6",
+   "title": "Medical Termination",
+   "text": "Employees may take up to 6 weeks of paid leave following a medical termination of pregnancy, with a medical certificate.",
+   "rule": "Employees may take up to 6 weeks of paid leave following a medical termination of pregnancy, with a medical certificate.",
+   "cat": "Pregnancy-Related Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AD-10.2",
+   "name": "Adoption Leave",
+   "section": "AD-10.2",
+   "title": "Child Age",
+   "text": "Adoption leave applies to adoption of a child under 18; the 16 weeks starts from placement.",
+   "rule": "Adoption leave applies to adoption of a child under 18; the 16 weeks starts from placement.",
+   "cat": "Adoption Leave",
+   "form": "Adoption Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-AD-10.3",
+   "name": "Adoption Leave",
+   "section": "AD-10.3",
+   "title": "Surrogacy",
+   "text": "Commissioning parents through surrogacy are eligible for adoption leave on the same terms.",
+   "rule": "Commissioning parents through surrogacy are eligible for adoption leave on the same terms.",
+   "cat": "Adoption Leave",
+   "form": "Adoption Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.1",
+   "name": "Other Leave",
+   "section": "OL-15.1",
+   "title": "Marriage Leave",
+   "text": "Employees receive 3 paid days for their own marriage, to be taken within 3 months of the wedding.",
+   "rule": "Employees receive 3 paid days for their own marriage, to be taken within 3 months of the wedding.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.2",
+   "name": "Other Leave",
+   "section": "OL-15.2",
+   "title": "Compensatory Off",
+   "text": "Employees who work on a weekend or public holiday at a manager's request may take a compensatory day off within 60 days.",
+   "rule": "Employees who work on a weekend or public holiday at a manager's request may take a compensatory day off within 60 days.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.3",
+   "name": "Other Leave",
+   "section": "OL-15.3",
+   "title": "Jury and Civic Duty",
+   "text": "Paid leave is provided for jury service or required court attendance as a witness.",
+   "rule": "Paid leave is provided for jury service or required court attendance as a witness.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.4",
+   "name": "Other Leave",
+   "section": "OL-15.4",
+   "title": "Volunteering",
+   "text": "Employees receive 2 paid volunteering days per year for registered charities.",
+   "rule": "Employees receive 2 paid volunteering days per year for registered charities.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.5",
+   "name": "Other Leave",
+   "section": "OL-15.5",
+   "title": "Study Leave",
+   "text": "Employees may take up to 5 paid days per year for exams related to approved courses.",
+   "rule": "Employees may take up to 5 paid days per year for exams related to approved courses.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.6",
+   "name": "Other Leave",
+   "section": "OL-15.6",
+   "title": "Sabbatical",
+   "text": "Employees with 5 years' service may request an unpaid sabbatical of up to 3 months, subject to CEO approval.",
+   "rule": "Employees with 5 years' service may request an unpaid sabbatical of up to 3 months, subject to CEO approval.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.7",
+   "name": "Other Leave",
+   "section": "OL-15.7",
+   "title": "Menstrual Health",
+   "text": "Employees may take up to 1 paid day per month for menstrual health, recorded separately from sick leave.",
+   "rule": "Employees may take up to 1 paid day per month for menstrual health, recorded separately from sick leave.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.8",
+   "name": "Other Leave",
+   "section": "OL-15.8",
+   "title": "Caregiver Leave",
+   "text": "Employees may take up to 5 unpaid days per year to care for a dependent with a long-term illness or disability.",
+   "rule": "Employees may take up to 5 unpaid days per year to care for a dependent with a long-term illness or disability.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.9",
+   "name": "Other Leave",
+   "section": "OL-15.9",
+   "title": "Domestic Violence",
+   "text": "Employees affected by domestic violence may take up to 10 paid days of confidential leave; contact HR Helpdesk in confidence.",
+   "rule": "Employees affected by domestic violence may take up to 10 paid days of confidential leave; contact HR Helpdesk in confidence.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
+  },
+  {
+   "id": "POL-OL-15.10",
+   "name": "Other Leave",
+   "section": "OL-15.10",
+   "title": "Religious Holidays",
+   "text": "Employees may swap a public holiday for a religious holiday of their choice with manager approval.",
+   "rule": "Employees may swap a public holiday for a religious holiday of their choice with manager approval.",
+   "cat": "Other Leave",
+   "form": "Leave Request Form",
+   "contact": "CONTACT-HR-OPERATIONS"
   }
  ],
  "faqs": [
@@ -1403,12 +2052,193 @@
    "a": "The primary adopter may take up to 16 weeks of paid adoption leave.",
    "chunk": "POL-AD-10.1",
    "cite": "Adoption Leave Policy §10.1"
+  },
+  {
+   "q": "Who approves my leave as an employee?",
+   "a": "For employees, annual, sick, unpaid and bereavement leave is approved by the Reporting Manager. Leave longer than 10 consecutive working days also requires HR Operations sign-off.",
+   "chunk": "POL-AP-11.1",
+   "cite": "Leave Approval Matrix Policy §11.1"
+  },
+  {
+   "q": "Who approves employee leave requests?",
+   "a": "For employees, annual, sick, unpaid and bereavement leave is approved by the Reporting Manager. Leave longer than 10 consecutive working days also requires HR Operations sign-off.",
+   "chunk": "POL-AP-11.1",
+   "cite": "Leave Approval Matrix Policy §11.1"
+  },
+  {
+   "q": "Who signs off my holiday?",
+   "a": "For employees, annual, sick, unpaid and bereavement leave is approved by the Reporting Manager. Leave longer than 10 consecutive working days also requires HR Operations sign-off.",
+   "chunk": "POL-AP-11.1",
+   "cite": "Leave Approval Matrix Policy §11.1"
+  },
+  {
+   "q": "Who approves my leave as an intern?",
+   "a": "For interns, all leave is approved by the assigned Intern Mentor or Reporting Manager, and HR Operations is notified. Interns accrue 1 paid leave day per completed month of internship and are not eligible for parental, maternity or adoption pay unless their contract states otherwise; unpaid leave may be granted.",
+   "chunk": "POL-AP-11.2",
+   "cite": "Leave Approval Matrix Policy §11.2"
+  },
+  {
+   "q": "Who approves intern leave?",
+   "a": "For interns, all leave is approved by the assigned Intern Mentor or Reporting Manager, and HR Operations is notified. Interns accrue 1 paid leave day per completed month of internship and are not eligible for parental, maternity or adoption pay unless their contract states otherwise; unpaid leave may be granted.",
+   "chunk": "POL-AP-11.2",
+   "cite": "Leave Approval Matrix Policy §11.2"
+  },
+  {
+   "q": "Can interns get maternity or paternity leave?",
+   "a": "For interns, all leave is approved by the assigned Intern Mentor or Reporting Manager, and HR Operations is notified. Interns accrue 1 paid leave day per completed month of internship and are not eligible for parental, maternity or adoption pay unless their contract states otherwise; unpaid leave may be granted.",
+   "chunk": "POL-AP-11.2",
+   "cite": "Leave Approval Matrix Policy §11.2"
+  },
+  {
+   "q": "Who approves leave for HR staff?",
+   "a": "For HR team members, leave is approved by the Head of HR. The Head of HR's own leave is approved by the CEO.",
+   "chunk": "POL-AP-11.3",
+   "cite": "Leave Approval Matrix Policy §11.3"
+  },
+  {
+   "q": "Who approves the head of HR's leave?",
+   "a": "For HR team members, leave is approved by the Head of HR. The Head of HR's own leave is approved by the CEO.",
+   "chunk": "POL-AP-11.3",
+   "cite": "Leave Approval Matrix Policy §11.3"
+  },
+  {
+   "q": "Who approves the CEO's leave?",
+   "a": "The CEO's leave is notified to the Board Chair and recorded by HR Operations; no manager approval is required.",
+   "chunk": "POL-AP-11.4",
+   "cite": "Leave Approval Matrix Policy §11.4"
+  },
+  {
+   "q": "Who approves maternity paternity adoption leave?",
+   "a": "Maternity, paternity, adoption and parental leave are approved by HR Operations after the Reporting Manager is informed. Managers cannot refuse statutory or policy family leave entitlements, but may discuss timing for paternity blocks.",
+   "chunk": "POL-AP-11.5",
+   "cite": "Leave Approval Matrix Policy §11.5"
+  },
+  {
+   "q": "Can my manager refuse my maternity leave?",
+   "a": "Maternity, paternity, adoption and parental leave are approved by HR Operations after the Reporting Manager is informed. Managers cannot refuse statutory or policy family leave entitlements, but may discuss timing for paternity blocks.",
+   "chunk": "POL-AP-11.5",
+   "cite": "Leave Approval Matrix Policy §11.5"
+  },
+  {
+   "q": "How long does leave approval take?",
+   "a": "Managers should respond to leave requests within 3 working days. If no response is received, the request escalates automatically to the manager's manager, then to HR Operations.",
+   "chunk": "POL-AP-11.6",
+   "cite": "Leave Approval Matrix Policy §11.6"
+  },
+  {
+   "q": "My manager has not approved my leave request",
+   "a": "Managers should respond to leave requests within 3 working days. If no response is received, the request escalates automatically to the manager's manager, then to HR Operations.",
+   "chunk": "POL-AP-11.6",
+   "cite": "Leave Approval Matrix Policy §11.6"
+  },
+  {
+   "q": "My leave was rejected can I appeal?",
+   "a": "If leave is refused, the approver must give a reason in writing. Employees may appeal to HR Operations within 5 working days.",
+   "chunk": "POL-AP-11.7",
+   "cite": "Leave Approval Matrix Policy §11.7"
+  },
+  {
+   "q": "How do I take emergency leave?",
+   "a": "In an emergency, employees should inform their Reporting Manager as soon as possible, by phone if needed, and submit the leave request within 2 working days of returning.",
+   "chunk": "POL-AP-11.8",
+   "cite": "Leave Approval Matrix Policy §11.8"
+  },
+  {
+   "q": "Who can see my data as an employee?",
+   "a": "Employees can view and update their own personal details, leave balance, payslips and documents. Employees cannot see other employees' personal data, salaries or leave reasons; they may see colleagues' names, job titles, team and work contact details in the company directory.",
+   "chunk": "POL-DA-12.1",
+   "cite": "Employee Data Access Policy §12.1"
+  },
+  {
+   "q": "Can employees see other people's salary?",
+   "a": "Employees can view and update their own personal details, leave balance, payslips and documents. Employees cannot see other employees' personal data, salaries or leave reasons; they may see colleagues' names, job titles, team and work contact details in the company directory.",
+   "chunk": "POL-DA-12.1",
+   "cite": "Employee Data Access Policy §12.1"
+  },
+  {
+   "q": "Can colleagues see my leave reason?",
+   "a": "Employees can view and update their own personal details, leave balance, payslips and documents. Employees cannot see other employees' personal data, salaries or leave reasons; they may see colleagues' names, job titles, team and work contact details in the company directory.",
+   "chunk": "POL-DA-12.1",
+   "cite": "Employee Data Access Policy §12.1"
+  },
+  {
+   "q": "What data can interns see?",
+   "a": "Interns can view their own profile, leave balance, stipend statements and internship documents. Interns have directory-only access to colleagues and no access to any other personal or employment data.",
+   "chunk": "POL-DA-12.2",
+   "cite": "Employee Data Access Policy §12.2"
+  },
+  {
+   "q": "What can my manager see about me?",
+   "a": "Reporting Managers can see their direct reports' leave balances, leave calendar, attendance and performance records. Managers cannot see medical details, bank details or salary data unless separately authorised by HR.",
+   "chunk": "POL-DA-12.3",
+   "cite": "Employee Data Access Policy §12.3"
+  },
+  {
+   "q": "Can managers see my medical details or salary?",
+   "a": "Reporting Managers can see their direct reports' leave balances, leave calendar, attendance and performance records. Managers cannot see medical details, bank details or salary data unless separately authorised by HR.",
+   "chunk": "POL-DA-12.3",
+   "cite": "Employee Data Access Policy §12.3"
+  },
+  {
+   "q": "What employee data can HR see?",
+   "a": "HR staff can access employee records, contracts, compensation, leave records and supporting documents strictly as needed for their duties. Medical documents and grievance files are restricted to named HR case owners. All HR access is logged and audited quarterly.",
+   "chunk": "POL-DA-12.4",
+   "cite": "Employee Data Access Policy §12.4"
+  },
+  {
+   "q": "Who can see my medical documents?",
+   "a": "HR staff can access employee records, contracts, compensation, leave records and supporting documents strictly as needed for their duties. Medical documents and grievance files are restricted to named HR case owners. All HR access is logged and audited quarterly.",
+   "chunk": "POL-DA-12.4",
+   "cite": "Employee Data Access Policy §12.4"
+  },
+  {
+   "q": "What employee data can the CEO see?",
+   "a": "The CEO can view organisation-wide reports, headcount, aggregated compensation and leave statistics. Access to an individual's sensitive records (medical, grievance, disciplinary) requires a documented business reason and is provided through the Head of HR.",
+   "chunk": "POL-DA-12.5",
+   "cite": "Employee Data Access Policy §12.5"
+  },
+  {
+   "q": "Can the CEO see my personal records?",
+   "a": "The CEO can view organisation-wide reports, headcount, aggregated compensation and leave statistics. Access to an individual's sensitive records (medical, grievance, disciplinary) requires a documented business reason and is provided through the Head of HR.",
+   "chunk": "POL-DA-12.5",
+   "cite": "Employee Data Access Policy §12.5"
+  },
+  {
+   "q": "Who can see my salary and bank details?",
+   "a": "Payroll / HR Operations can access salary, bank and tax details solely to process pay. These details are not shared with managers or colleagues.",
+   "chunk": "POL-DA-12.6",
+   "cite": "Employee Data Access Policy §12.6"
+  },
+  {
+   "q": "How do I get a copy of my personal data?",
+   "a": "Any employee or intern may request a copy of the personal data held about them, or correction of inaccurate data, using the Data Access Request Form. HR will respond within 30 days.",
+   "chunk": "POL-DA-12.7",
+   "cite": "Employee Data Access Policy §12.7"
+  },
+  {
+   "q": "How long are my records kept?",
+   "a": "Leave and employment records are kept for 6 years after employment ends; medical documents for leave are kept for 2 years and then securely deleted.",
+   "chunk": "POL-DA-12.8",
+   "cite": "Employee Data Access Policy §12.8"
+  },
+  {
+   "q": "What does the CEO approve?",
+   "a": "The CEO approves company-wide policy changes, final appeals on disciplinary matters, and exceptions to leave policy above 20 working days. The CEO does not approve routine leave for individual employees.",
+   "chunk": "POL-RR-13.4",
+   "cite": "Role Responsibilities Policy §13.4"
+  },
+  {
+   "q": "What does HR do?",
+   "a": "The HR team administers leave, maintains employee records, advises managers and employees on policy, manages grievances confidentially and approves family leave.",
+   "chunk": "POL-RR-13.3",
+   "cite": "Role Responsibilities Policy §13.3"
   }
  ],
  "contacts": {
   "CONTACT-HR-OPERATIONS": "HR Operations",
   "CONTACT-REPORTING-MANAGER": "Reporting Manager",
   "CONTACT-PAYROLL-HR": "Payroll / HR Operations",
-  "CONTACT-HR-HELPDESK": "HR Helpdesk"
+  "CONTACT-HR-HELPDESK": "HR Helpdesk",
+  "CONTACT-HEAD-HR": "Head of HR"
  }
 }

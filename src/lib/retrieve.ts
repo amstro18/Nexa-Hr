@@ -9,7 +9,7 @@ const tok = (s: string) => s.toLowerCase().match(/[a-z0-9]+/g)?.filter((w) => !S
 
 type Doc = { policyId: string; terms: string[] };
 const docs: Doc[] = [
-  ...kb.policies.map((p) => ({ policyId: p.id, terms: tok(`${p.cat} ${p.title} ${p.text} ${p.rule}`) })),
+  ...kb.policies.map((p) => ({ policyId: p.id, terms: tok(`${p.cat} ${p.name} ${p.title} ${p.text} ${p.rule}`) })),
   ...kb.faqs.map((f) => ({ policyId: f.chunk, terms: tok(f.q) })),
 ];
 const df = new Map<string, number>();
