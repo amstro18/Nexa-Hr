@@ -8,6 +8,13 @@
       "when": 1791325471446,
       "tag": "0000_create_access_roles",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1791326141170,
+      "tag": "0001_add_hr_role",
+      "breakpoints": true
     }
   ]
 }
