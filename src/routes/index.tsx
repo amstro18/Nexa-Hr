@@ -90,7 +90,9 @@ function Chat({ user }: { user: User }) {
   const { messages, sendMessage, status, error, stop } = useChat({ transport });
   const busy = status === "submitted" || status === "streaming";
   const end = useRef<HTMLDivElement>(null);
-  useEffect(() => end.current?.scrollIntoView({ behavior: "smooth" }), [messages]);
+  useEffect(() => {
+    end.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
 
   const ask = (text: string) => {
     if (!text.trim() || busy) return;
