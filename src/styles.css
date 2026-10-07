@@ -48,13 +48,52 @@
   --border: oklch(0.88 0 0);
   --sidebar: oklch(0.965 0 0);
   --destructive: oklch(0.44 0.12 25);
+  --accent-strong: oklch(0.46 0.07 255);
+  --accent-soft: oklch(0.93 0.02 255);
+}
+.dark {
+  --background: oklch(0.19 0 0);
+  --foreground: oklch(0.93 0 0);
+  --card: oklch(0.225 0 0);
+  --primary: oklch(0.93 0 0);
+  --primary-foreground: oklch(0.21 0 0);
+  --muted: oklch(0.26 0 0);
+  --muted-foreground: oklch(0.66 0 0);
+  --border: oklch(0.32 0 0);
+  --sidebar: oklch(0.165 0 0);
+  --destructive: oklch(0.62 0.14 25);
+  --accent-strong: oklch(0.72 0.08 255);
+  --accent-soft: oklch(0.3 0.03 255);
+}
+@theme inline {
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
 }
 @layer base {
   * { border-color: var(--border); letter-spacing: 0; }
-  body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-sans); }
+  html { transition: background-color 0.35s ease, color 0.35s ease; }
+  body { margin: 0; background: var(--background); color: var(--foreground); font-family: var(--font-sans); transition: background-color 0.35s ease, color 0.35s ease; }
   h1, h2 { font-family: var(--font-display); font-weight: 400; }
   button, input, textarea { font: inherit; }
-  ::selection { background: var(--muted); }
+  ::selection { background: var(--accent-soft); }
+  a, summary { transition: color 0.2s ease; }
+}
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@utility animate-fade-up {
+  animation: fade-up 0.45s ease both;
+}
+@utility animate-fade-in {
+  animation: fade-in 0.35s ease both;
+}
+@utility animate-fade-up-delayed {
+  animation: fade-up 0.45s ease 0.08s both;
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
