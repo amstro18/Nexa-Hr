@@ -5,7 +5,7 @@ import { useChat } from '@ai-sdk/react';
 import { DefaultChatTransport } from 'ai';
 import ReactMarkdown from 'react-markdown';
 import type { User } from '@supabase/supabase-js';
-import { ArrowRight, BookOpen, ChevronDown, Eye, EyeOff, LogOut, Menu, MessageSquare, Plus, ShieldCheck, Square, X } from 'lucide-react';
+import { ArrowRight, BookOpen, ChevronDown, Eye, EyeOff, LogOut, Menu, MessageSquare, Moon, Plus, ShieldCheck, Square, Sun, X } from 'lucide-react';
 import { supabase } from '@/integrations/supabase/client';
 import { lovable } from '@/integrations/lovable/index';
 import { Button } from '@/components/ui/button';
@@ -45,6 +45,16 @@ function Index() {
 }
 function Logo() {
   return <div className="flex items-center gap-3"><span className="grid size-10 shrink-0 place-items-center rounded-sm bg-primary text-primary-foreground"><svg aria-hidden="true" className="size-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 3 20 21H4L12 3Z" /></svg></span><span className="text-2xl font-semibold">NexaHR</span></div>;
+}
+function ThemeToggle() {
+  const [dark, setDark] = useState(() => typeof document !== 'undefined' && document.documentElement.classList.contains('dark'));
+  const toggle = () => {
+    const next = !dark;
+    setDark(next);
+    document.documentElement.classList.toggle('dark', next);
+    try { localStorage.setItem('nexahr-theme', next ? 'dark' : 'light'); } catch { /* private mode */ }
+  };
+  return <Button variant="ghost" size="icon" onClick={toggle} aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'} title={dark ? 'Switch to light mode' : 'Switch to dark mode'}>{dark ? <Sun /> : <Moon />}</Button>;
 }
 function GoogleMark() {
   return <svg aria-hidden="true" viewBox="0 0 24 24" className="size-5" fill="currentColor"><path d="M21.35 11.1H12v2.98h5.35c-.23 1.5-1.68 4.4-5.35 4.4a5.96 5.96 0 0 1 0-11.92c1.84 0 3.07.78 3.78 1.46l2.58-2.48C16.7 4.02 14.56 3 12 3a9 9 0 1 0 0 18c5.2 0 8.64-3.65 8.64-8.8 0-.6-.07-1.05-.15-1.5z" /></svg>;
