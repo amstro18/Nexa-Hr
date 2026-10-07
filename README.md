@@ -157,3 +157,8 @@ npm install
 Create a local `.env` file containing the required environment variables.
 
 > Do not commit `.env` or other credentials to the reposit
+
+Screenshots of the working model - <img width="1917" height="922" alt="image" src="https://github.com/user-attachments/assets/f2873def-3074-46e9-a586-a3310072cec1" />
+<img width="1917" height="930" alt="image" src="https://github.com/user-attachments/assets/8cd91da0-eedd-43e8-9784-778a0c8cebf9" />
+<img width="1917" height="923" alt="image" src="https://github.com/user-attachments/assets/3a49904c-4c8a-47f8-a9b0-510d86a1e69b" />
+
