@@ -93,11 +93,12 @@ function Login() {
   }
   return <div className="flex min-h-svh">
     <aside className="hidden w-[440px] shrink-0 flex-col justify-between border-r bg-sidebar p-16 lg:flex">
-      <div><Logo /><div className="mt-24 space-y-8"><h1 className="max-w-xs text-5xl leading-[1.2]">HR answers,<br />without the<br />guesswork.</h1><p className="max-w-xs text-lg leading-relaxed text-muted-foreground">A little clarity for your working day.</p></div></div>
+      <div><Logo /><div className="mt-24 space-y-8 animate-fade-up"><h1 className="max-w-xs text-5xl leading-[1.2]">HR answers,<br />without the<br />guesswork.</h1><p className="max-w-xs text-lg leading-relaxed text-muted-foreground">A little clarity for your working day.</p></div></div>
       <div className="mt-16 border-t pt-6"><div className="flex items-center justify-between gap-3 text-xs text-muted-foreground"><span>Company policies</span><span>People first</span><ShieldCheck className="size-4" aria-label="Secure sign-in" /></div></div>
     </aside>
-    <main className="flex flex-1 items-center justify-center px-6 py-10 sm:px-12">
-      <div className="w-full max-w-[420px]">
+    <main className="relative flex flex-1 items-center justify-center px-6 py-10 sm:px-12">
+      <div className="absolute right-6 top-6"><ThemeToggle /></div>
+      <div className="w-full max-w-[420px] animate-fade-up-delayed">
         <div className="mb-10 lg:hidden"><Logo /></div>
         <header className="mb-8"><h2 className="text-2xl leading-snug">Sign in to your workspace</h2><p className="mt-3 text-sm text-muted-foreground">Good to have you here.</p></header>
         <Button variant="outline" disabled={pending} onClick={googleSignIn} className="h-12 w-full shadow-none"><GoogleMark />Continue with Google</Button>
