@@ -81,6 +81,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
+    scripts: [
+      {
+        children: `try{if(localStorage.getItem('nexahr-theme')==='dark'||(!localStorage.getItem('nexahr-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch(e){}`,
+      },
+    ],
     links: [
       {
         rel: "stylesheet",
