@@ -1,7 +1,3 @@
-# Sending Files
-
-wait i am sending 1 more file
-
 This project was built with [Lovable](https://lovable.dev).
 
 **Live app**: https://happy-storage-spot.lovable.app
