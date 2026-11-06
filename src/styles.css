@@ -52,18 +52,18 @@
   --accent-soft: oklch(0.93 0.04 132);
 }
 .dark {
-  --background: oklch(0.19 0 0);
-  --foreground: oklch(0.93 0 0);
-  --card: oklch(0.225 0 0);
-  --primary: oklch(0.93 0 0);
-  --primary-foreground: oklch(0.21 0 0);
-  --muted: oklch(0.26 0 0);
-  --muted-foreground: oklch(0.66 0 0);
-  --border: oklch(0.32 0 0);
-  --sidebar: oklch(0.165 0 0);
+  --background: oklch(0.13 0.008 135);
+  --foreground: oklch(0.95 0.008 130);
+  --card: oklch(0.18 0.009 135);
+  --primary: oklch(0.84 0.2 132);
+  --primary-foreground: oklch(0.16 0.02 132);
+  --muted: oklch(0.22 0.01 135);
+  --muted-foreground: oklch(0.7 0.012 130);
+  --border: oklch(0.31 0.012 135);
+  --sidebar: oklch(0.105 0.008 135);
   --destructive: oklch(0.62 0.14 25);
-  --accent-strong: oklch(0.78 0.14 132);
-  --accent-soft: oklch(0.3 0.06 132);
+  --accent-strong: oklch(0.84 0.2 132);
+  --accent-soft: oklch(0.27 0.07 132);
 }
 @theme inline {
   --color-accent-strong: var(--accent-strong);

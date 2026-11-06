@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     scripts: [
       {
-        children: `try{if(localStorage.getItem('nexahr-theme')==='dark'||(!localStorage.getItem('nexahr-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch(e){}`,
+        children: `try{if(localStorage.getItem('nexahr-theme')!=='light')document.documentElement.classList.add('dark')}catch(e){document.documentElement.classList.add('dark')}`,
       },
     ],
     links: [
