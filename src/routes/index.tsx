@@ -93,7 +93,7 @@ function Login() {
   }
   return <div className="flex min-h-svh">
     <aside className="hidden w-[440px] shrink-0 flex-col justify-between border-r bg-sidebar p-16 lg:flex">
-      <div><Logo /><div className="mt-24 space-y-8 animate-fade-up"><h1 className="max-w-xs text-5xl leading-[1.2]">HR answers,<br />without the<br />guesswork.</h1><p className="max-w-xs text-lg leading-relaxed text-muted-foreground">A little clarity for your working day.</p></div></div>
+      <div><Logo /><div className="mt-24 space-y-8 animate-fade-up"><h1 className="max-w-xs text-5xl leading-[1.2]">HR answers,<br />without the<br /><em className="text-accent-strong">guesswork.</em></h1><p className="max-w-xs text-lg leading-relaxed text-muted-foreground">A little clarity for your working day.</p></div></div>
       <div className="mt-16 border-t pt-6"><div className="flex items-center justify-between gap-3 text-xs text-muted-foreground"><span>Company policies</span><span>People first</span><ShieldCheck className="size-4" aria-label="Secure sign-in" /></div></div>
     </aside>
     <main className="relative flex flex-1 items-center justify-center px-6 py-10 sm:px-12">
